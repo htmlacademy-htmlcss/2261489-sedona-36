@@ -51,11 +51,12 @@
             <a class="breadcrumbs-link">Гостиницы</a>
           </li>
         </ul>
+
         <form class="hotels-filter" action="https://echo.htmlacademy.ru" method="get">
           <h2 class="visually-hidden">Фильтр гостиниц</h2>
-          <fieldset class="hotels-filter-group">
+        <fieldset class="hotels-filter-group">
             <legend class="infrastructure">Инфраструктура:</legend>
-          <ul>
+          <ul class="hotels-filter-list">
             <li class="hotels-filter-item">
               <label class="control">
                 <input class="control-input" type="checkbox" name="swimming-pool" checked>Бассейн
@@ -72,11 +73,20 @@
               </label>
             </li>
           </ul>
+        </fieldset>
 
-
-          </fieldset>
           <fieldset class="hotels-filter-group">
             <legend class="housing-type">Тип жилья:</legend>
+            <ul class="hotels-filter-list">
+              <li class="hotels-filter-item">
+                <label class="control">
+                  <input class="control-input" type="radio" name="hotel-group" value="hotel">
+                  Гостиница
+                </label>
+              </li>
+
+
+            </ul>
           </fieldset>
 
         </form>
