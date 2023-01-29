@@ -15,7 +15,7 @@
   background: url(/img/index-background.jpg) no-repeat;
 }
 
-.subscribe {
+.subscribe-index {
   background: url(/img/subscribe-background.png) no-repeat;
   display: flex;
   flex-direction: column;
