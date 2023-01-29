@@ -15,6 +15,10 @@
   background: url(/img/index-background.jpg) no-repeat;
 }
 
+.main-welcome {
+ padding: 51px 371px 82px;
+}
+
 .subscribe-index {
   background: url(/img/subscribe-background.png) no-repeat;
   display: flex;
