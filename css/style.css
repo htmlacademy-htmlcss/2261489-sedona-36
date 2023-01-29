@@ -14,3 +14,13 @@
 .welcome {
   background: url(/img/index-background.jpg) no-repeat;
 }
+
+.subscribe {
+  background: url(/img/subscribe-background.png) no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 96px 258px 104px;
+  gap: 10px;
+}
