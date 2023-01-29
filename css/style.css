@@ -24,3 +24,7 @@
   padding: 96px 258px 104px;
   gap: 10px;
 }
+
+.sedona-hotels {
+  background: url(/img/filter-background.png) no-repeat
+}
