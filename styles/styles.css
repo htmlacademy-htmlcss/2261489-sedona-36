@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   src: url("/fonts/ptsans-400.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   src: url("/fonts/ptsans-700.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
@@ -16,6 +16,8 @@
 
 body {
   font-family: "PT Sans";
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .visually-hidden {
