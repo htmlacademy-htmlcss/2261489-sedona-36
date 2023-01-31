@@ -38,7 +38,7 @@ body {
 }
 
 .subscribe-index {
-  background: url(/img/subscribe-background.png) no-repeat;
+  background: url(/img/subscribe-background.jpg) no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,5 +48,5 @@ body {
 }
 
 .sedona-hotels {
-  background: url(/img/filter-background.png) no-repeat
+  background: url(/img/filter-background.jpg) no-repeat
 }
