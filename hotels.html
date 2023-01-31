@@ -2,17 +2,17 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <link type="Image/x-icon" href="img/favicon.png" rel="icon">
+    <link href="styles/styles.css" rel="stylesheet">
     <title>Каталог</title>
   </head>
   <body>
     <header class="page-header">
+      <a class="navigation-logo" href="index.html">
+        <img class="page-header-logo" alt="Логотип Седоны" src="img/logo-sedona.svg">
+      </a>
       <nav class="navigation">
         <ul class="navigation-items">
-          <li class="navigation-item">
-            <a class="navigation-logo" href="index.html">
-              <img class="page-header-logo" alt="Логотип Седоны" src="#">
-            </a>
-          </li>
           <li class="navigation-item">
             <a class="navigation-link" href="index.html">Главная</a>
           </li>
@@ -126,7 +126,7 @@
         <ul class="hotels-list">
           <li class="hotel-card">
             <a class="hotel-card-link" href="#">
-              <img src="/img/hotel-1.png" alt="Amara Resort & Spa" width="300" height="212">
+              <img src="img/hotel-1.jpg" alt="Amara Resort & Spa" width="300" height="212">
               <h3 class="hotel-card-title">Amara Resort & Spa</h3>
               <p>Гостиница</p>
               <p>От 4000 ₽</p>
@@ -140,7 +140,7 @@
           </li>
           <li class="hotel-card">
             <a class="hotel-card-link" href="#">
-              <img src="/img/hotel-2.jpg" alt="Villas at Poco Diablo" width="300" height="212">
+              <img src="img/hotel-2.jpg" alt="Villas at Poco Diablo" width="300" height="212">
               <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
               <p>Гостиница</p>
               <p>От 5000 ₽</p>
@@ -154,7 +154,7 @@
           </li>
           <li class="hotel-card">
             <a class="hotel-card-link" href="#">
-              <img src="/img/hotel-3.jpg" alt="Desert Quail Inn" width="300" height="212">
+              <img src="img/hotel-3.jpg" alt="Desert Quail Inn" width="300" height="212">
               <h3 class="hotel-card-title">Desert Quail Inn</h3>
               <p>Гостиница</p>
               <p>От 2500 ₽</p>
@@ -168,7 +168,7 @@
           </li>
           <li class="hotel-card">
             <a class="hotel-card-link" href="#">
-              <img src="/img/hotel-4.jpg" alt="GreenTree Inn" width="300" height="212">
+              <img src="img/hotel-4.jpg" alt="GreenTree Inn" width="300" height="212">
               <h3 class="hotel-card-title">Desert Quail Inn</h3>
               <p>Гостиница</p>
               <p>От 1500 ₽</p>
@@ -181,7 +181,7 @@
             </div>
           </li>
         </ul>
-        <ul class="pagination">
+        <ol class="pagination">
           <li class="pagination-item">
             <a class="pagination-link pagination-current" href="#">1</a>
           </li>
@@ -195,14 +195,14 @@
             <a class="pagination-link" href="#">4</a>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link">...</a>
+            <span>...</span>
           </li>
           <li class="pagination-item">
             <a class="pagination-link" href="#">10</a>
           </li>
-        </ul>
+        </ol>
       </section>
-      <section class="subscribe">
+      <section class="subscribe-hotels">
         <h2>Подпишитесь на рассылку</h2>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -236,6 +236,7 @@
         </li>
         <li class="contacts-htmlacademy-link">
           <a class="icon" href=https://htmlacademy.ru>
+            <img src="img/logo_htmlacademy.svg" alt="HTML-Academy">
             <span class="visually-hidden">HTML-Academy</span>
           </a>
         </li>
