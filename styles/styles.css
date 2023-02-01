@@ -47,6 +47,8 @@ body {
 }
 
 .welcome {
+  background-color: #ffffff;
+  color: #000000;
   background: url(/img/index-background.jpg) no-repeat;
 }
 
@@ -55,6 +57,8 @@ body {
 }
 
 .subscribe-index {
+  background-color: #303030;
+  color: #ffffff;
   background: url(/img/subscribe-background.jpg) no-repeat;
   display: flex;
   flex-direction: column;
