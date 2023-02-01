@@ -47,19 +47,31 @@ body {
 }
 
 .welcome {
-  background-color: #ffffff;
   color: #000000;
-  background: url(/img/index-background.jpg) no-repeat;
+  background: url(/img/index-background.jpg) no-repeat #ffffff;
+  background-size: 100% auto;
 }
 
 .main-welcome {
  padding: 51px 371px 82px;
 }
 
+.advantages-list {
+  text-align: center;
+}
+
+.advantages-title {
+  color: #000000;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .subscribe-index {
-  background-color: #303030;
   color: #ffffff;
-  background: url(/img/subscribe-background.jpg) no-repeat;
+  background: url(/img/subscribe-background.jpg) no-repeat #303030;
+  background-size: 100% auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,5 +81,7 @@ body {
 }
 
 .sedona-hotels {
-  background: url(/img/filter-background.jpg) no-repeat
+  color: #ffffff;
+  background: url(/img/subscribe-background.jpg) no-repeat #303030;
+  background-size: 100% auto;
 }
