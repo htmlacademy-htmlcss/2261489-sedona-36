@@ -35,6 +35,17 @@ body {
   overflow: hidden;
 }
 
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
 .welcome {
   background: url(/img/index-background.jpg) no-repeat;
 }
