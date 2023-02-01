@@ -68,6 +68,23 @@ body {
   text-transform: uppercase;
 }
 
+.advantages-title-wide {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.advantages-item-wide {
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.advantages-image {
+  display: block;
+}
+
 .subscribe-index {
   color: #ffffff;
   background: url(/img/subscribe-background.jpg) no-repeat #303030;
