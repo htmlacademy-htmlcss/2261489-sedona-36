@@ -52,7 +52,9 @@ body {
 }
 
 .advantages h2,
-.features h2 {
+.features h2,
+.search-hotel h2 {
+  color: #000000;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -60,13 +62,13 @@ body {
   text-transform: uppercase;
 }
 
+.reason,
 .search-hotel,
 .features p,
 .features-description {
   text-align: center;
 }
 
-.advantages-description,
 .search-hotel p {
   font-size: 22px;
   line-height: 26px;
@@ -136,8 +138,16 @@ body {
   gap: 10px;
 }
 
+.subscribe-index h2 {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
 .subscribe-description {
   color: #ffffff;
+  font-size: 22px;
+  line-height: 26px;
 }
 
 .sedona-hotels {
