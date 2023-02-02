@@ -51,7 +51,8 @@ body {
   text-decoration: none;
 }
 
-h2 {
+.advantages h2,
+.features h2 {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -59,15 +60,12 @@ h2 {
   text-transform: uppercase;
 }
 
-h3 {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
+.search-hotel {
   text-align: center;
-  text-transform: uppercase;
 }
 
-p {
+.advantages p,
+.search-hotel p {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
@@ -89,7 +87,7 @@ p {
   list-style-type: none;
 }
 
-.advantages-title {
+.advantages-title-narrow {
   color: #000000;
   font-size: 24px;
   line-height: 28px;
@@ -121,6 +119,20 @@ p {
 .features-list {
   list-style-type: none;
 }
+
+.features-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.features p,
+.features-description {
+  text-align: center;
+}
+
 
 .subscribe-index {
   color: #ffffff;
