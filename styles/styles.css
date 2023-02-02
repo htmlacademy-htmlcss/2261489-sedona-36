@@ -51,6 +51,14 @@ body {
   text-decoration: none;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .welcome {
   color: #000000;
   background: url(/img/index-background.jpg) no-repeat #ffffff;
