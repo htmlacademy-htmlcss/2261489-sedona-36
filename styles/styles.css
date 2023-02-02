@@ -20,6 +20,7 @@ body {
   line-height: 21px;
   color: #333333;
   background-color: #ffffff;
+
 }
 
 .visually-hidden {
@@ -33,6 +34,10 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.navigation-items {
+  list-style-type: none;
 }
 
 .navigation-link {
@@ -58,6 +63,7 @@ body {
 
 .advantages-list {
   text-align: center;
+  list-style-type: none;
 }
 
 .advantages-title {
@@ -83,6 +89,10 @@ body {
 
 .advantages-image {
   display: block;
+}
+
+.features-list {
+  list-style-type: none;
 }
 
 .subscribe-index {
