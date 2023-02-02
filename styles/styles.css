@@ -59,6 +59,13 @@ h2 {
   text-transform: uppercase;
 }
 
+p {
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  text-align: center;
+}
+
 .welcome {
   color: #000000;
   background: url(/img/index-background.jpg) no-repeat #ffffff;
@@ -113,6 +120,10 @@ h2 {
   align-items: center;
   padding: 96px 258px 104px;
   gap: 10px;
+}
+
+.subscribe-description {
+  color: #ffffff;
 }
 
 .sedona-hotels {
