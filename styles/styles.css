@@ -36,7 +36,9 @@ body {
   overflow: hidden;
 }
 
-.navigation-items {
+.navigation-items,
+.hotel-card,
+.contacts-social-list {
   list-style-type: none;
 }
 
@@ -69,7 +71,8 @@ body {
   text-align: center;
 }
 
-.search-hotel p {
+.search-hotel p,
+.subscribe-hotels p {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
@@ -138,7 +141,8 @@ body {
   gap: 10px;
 }
 
-.subscribe-index h2 {
+.subscribe-index h2,
+.subscribe-hotels h2 {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
@@ -195,10 +199,6 @@ body {
   list-style-type: none;
 }
 
-.pagination-item {
-  border-radius: 14px;
-}
-
 .pagination-link {
   color: #ffffff;
   background: #82B3D3;
@@ -213,4 +213,14 @@ body {
 .pagination-current {
   background: #f2f2f2;
   color: #000000;
+}
+
+.subscribe-hotels {
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 96px 258px 104px;
+  gap: 10px;
 }
