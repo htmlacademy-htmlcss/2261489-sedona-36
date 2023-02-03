@@ -37,8 +37,12 @@ body {
 }
 
 .navigation-items,
-.hotel-card,
-.contacts-social-list {
+.breadcrumbs,
+.hotels-list,
+.hotels-filter-list,
+.contacts-social-list,
+.features-list,
+.pagination {
   list-style-type: none;
 }
 
@@ -125,10 +129,6 @@ body {
   display: block;
 }
 
-.features-list {
-  list-style-type: none;
-}
-
 .subscribe-index {
   color: #ffffff;
   background: url(/img/subscribe-background.jpg) no-repeat #303030;
@@ -193,10 +193,6 @@ body {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
-}
-
-.pagination {
-  list-style-type: none;
 }
 
 .pagination-link {
