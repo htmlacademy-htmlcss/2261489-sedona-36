@@ -190,3 +190,27 @@ body {
   line-height: 28px;
   font-weight: 700;
 }
+
+.pagination {
+  list-style-type: none;
+}
+
+.pagination-item {
+  border-radius: 14px;
+}
+
+.pagination-link {
+  color: #ffffff;
+  background: #82B3D3;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.pagination-current {
+  background: #f2f2f2;
+  color: #000000;
+}
