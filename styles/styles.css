@@ -188,7 +188,8 @@ body {
   color: #333333;
 }
 
-.hotel-card a {
+.hotel-card a,
+.navigation-item a {
   text-decoration: none;
 }
 
