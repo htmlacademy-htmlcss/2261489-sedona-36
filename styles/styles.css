@@ -188,6 +188,10 @@ body {
   color: #333333;
 }
 
+.hotel-card a {
+  text-decoration: none;
+}
+
 .hotel-card-title {
   color: #000000;
   font-size: 24px;
