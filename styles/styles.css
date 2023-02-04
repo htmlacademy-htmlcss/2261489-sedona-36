@@ -85,7 +85,8 @@ body {
 
 .welcome {
   color: #000000;
-  background: url(/img/index-background.jpg) no-repeat #ffffff;
+  background: url(/img/welcome-bottom-decor.svg) no-repeat bottom,
+              url(/img/index-background.jpg) no-repeat #ffffff;
   background-size: 100% auto;
 }
 
@@ -114,6 +115,14 @@ body {
   line-height: 28px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.advantages-item {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item:nth-child(3) {
+  background-color: rgba(131, 179, 211, 0.2);
 }
 
 .advantages-description-wide {
