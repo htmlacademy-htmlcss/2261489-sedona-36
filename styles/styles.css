@@ -154,6 +154,13 @@ body {
   line-height: 26px;
 }
 
+.button-search-hotel {
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 .sedona-hotels {
   color: #ffffff;
   background: url(/img/subscribe-background.jpg) no-repeat #303030;
@@ -224,4 +231,31 @@ body {
   align-items: center;
   padding: 96px 258px 104px;
   gap: 10px;
+}
+
+.button {
+  background-color: #756157;
+  color:#ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  border-style: none;
+  text-transform: uppercase;
+}
+
+.subscribe-button {
+  border-radius: 0px 4px 4px 0px;
+  background-color: #82B3D3;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.button-apply,
+.button-to-favorites {
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.button-in-favorites {
+  background-color: #7DB54F;
 }
