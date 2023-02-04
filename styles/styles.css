@@ -267,3 +267,13 @@ body {
 .button-in-favorites {
   background-color: #7DB54F;
 }
+
+.rating-text {
+  color: #333333;
+  background-color: #F2F2F2;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  border-style: none;
+}
