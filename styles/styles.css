@@ -36,7 +36,15 @@ body {
   overflow: hidden;
 }
 
+.phone-number {
+  color: #000000;
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+}
+
 .navigation-items,
+.contacts-item,
 .breadcrumbs,
 .hotels-list,
 .hotels-filter-list,
