@@ -91,15 +91,12 @@ body {
 
 .welcome {
   color: #000000;
-  background: url("../img/welcome-bottom-decor.svg") no-repeat bottom,
+  background: url("../img/welcome-bottom-decor.svg") no-repeat bottom ,
               url("../img/index-background.jpg") no-repeat #ffffff;
   background-size: 100% auto;
   text-align: center;
 }
 
-.main-welcome {
- padding: 51px 371px 82px;
-}
 
 .advantages-list {
   text-align: center;
