@@ -94,6 +94,7 @@ body {
   background: url("../img/welcome-bottom-decor.svg") no-repeat bottom,
               url("../img/index-background.jpg") no-repeat #ffffff;
   background-size: 100% auto;
+  text-align: center;
 }
 
 .main-welcome {
