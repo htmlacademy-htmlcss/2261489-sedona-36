@@ -240,6 +240,7 @@ body {
 }
 
 .button {
+  display: inline-block;
   background-color: #756157;
   color:#ffffff;
   font-weight: 700;
@@ -254,7 +255,6 @@ body {
 .want-here {
   width: 160px;
   height: 36px;
-
 }
 
 .subscribe-button {
