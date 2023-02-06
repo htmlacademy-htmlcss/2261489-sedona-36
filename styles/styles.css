@@ -85,8 +85,8 @@ body {
 
 .welcome {
   color: #000000;
-  background: url(/img/welcome-bottom-decor.svg) no-repeat bottom,
-              url(/img/index-background.jpg) no-repeat #ffffff;
+  background: url("../img/welcome-bottom-decor.svg") no-repeat bottom,
+              url("../img/index-background.jpg") no-repeat #ffffff;
   background-size: 100% auto;
 }
 
@@ -140,7 +140,7 @@ body {
 
 .subscribe-index {
   color: #ffffff;
-  background: url(/img/subscribe-background.jpg) no-repeat #303030;
+  background: url("../img/subscribe-background.jpg") no-repeat #303030;
   background-size: 100% auto;
   display: flex;
   flex-direction: column;
@@ -172,7 +172,7 @@ body {
 
 .sedona-hotels {
   color: #ffffff;
-  background: url(/img/subscribe-background.jpg) no-repeat #303030;
+  background: url("../img/subscribe-background.jpg") no-repeat #303030;
   background-size: 100% auto;
 }
 
