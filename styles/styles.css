@@ -278,6 +278,10 @@ body {
   background-color: #82B3D3;
 }
 
+.button-reset {
+  background-color: rgba(0,0,0,0);
+}
+
 .button-in-favorites {
   background-color: #7DB54F;
 }
