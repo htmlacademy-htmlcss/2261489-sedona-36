@@ -73,12 +73,13 @@ body {
   text-transform: uppercase;
 }
 
-.reason,
+
 .search-hotel,
 .features-description {
   text-align: center;
 }
 
+.reason,
 .search-hotel p,
 .subscribe-hotels p,
 .title-description {
