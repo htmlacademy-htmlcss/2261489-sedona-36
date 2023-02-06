@@ -81,7 +81,7 @@ body {
 
 .search-hotel p,
 .subscribe-hotels p,
-.features p {
+.title-description {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
@@ -250,7 +250,7 @@ body {
   display: inline-block;
   background-color: #756157;
   color:#ffffff;
-  font-family: "PT Sans";
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -260,16 +260,9 @@ body {
   padding: 8px 50px;
 }
 
-.want-here {
-  width: 160px;
-  height: 36px;
-}
-
 .button-search-hotel {
-  font-family: "PT Sans";
   font-size: 20px;
   line-height: 36px;
-  text-transform: uppercase;
   text-decoration: none;
 }
 
