@@ -25,6 +25,7 @@ body {
 
 .body-container {
   margin: 0 auto;
+  width: 1200px;
   outline: 2px solid purple;
 }
 
