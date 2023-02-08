@@ -137,6 +137,14 @@ body {
   align-items: center;
   padding: 96px 304px;
 }
+.subscribe-index-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 96px 258px 104px;
+  gap: 10px;
+}
 
 .reason,
 .search-hotel p,
@@ -233,12 +241,7 @@ body {
   color: #ffffff;
   background: url("../img/subscribe-background.jpg") no-repeat #303030;
   background-size: 100% auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 96px 258px 104px;
-  gap: 10px;
+
 }
 
 .subscribe-index h2,
@@ -252,6 +255,7 @@ body {
   color: #ffffff;
   font-size: 22px;
   line-height: 26px;
+  text-align: center;
 }
 
 .sedona-hotels {
