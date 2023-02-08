@@ -79,7 +79,6 @@ body {
 }
 
 
-
 .phone-number {
   color: #000000;
   font-size: 40px;
@@ -144,6 +143,34 @@ body {
   align-items: center;
   padding: 96px 258px 104px;
   gap: 10px;
+}
+
+.footer-contacts-container {
+  display: flex;
+  margin: 0;
+  padding: 40px 70px 30px;
+}
+
+.contacts-social-list {
+  display: flex;
+  outline: 2px solid rgb(0, 128, 68);
+  width: 160px;
+  margin: 0;
+  padding: 0;
+}
+
+.contacts-phone-number {
+  display: flex;
+  justify-content: center;
+  width: 720px;
+  margin: 0;
+  padding: 0 41.5px;
+}
+
+.contacts-htmlacademy-link {
+  display: flex;
+  width: 115px;
+  align-items: center;
 }
 
 .reason,
