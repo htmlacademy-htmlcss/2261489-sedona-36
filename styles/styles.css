@@ -42,6 +42,27 @@ body {
   outline: 2px solid purple;
 }
 
+.navigation {
+  display: flex;
+  margin: 0 auto;
+}
+
+.navigation-items {
+  display: flex;
+  outline: 2px solid purple;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+}
+
+.navigation-user {
+  display: flex;
+  width: 300px;
+  margin-left: auto;
+
+}
+
+
 .visually-hidden {
   position: absolute;
   width: 1px;
