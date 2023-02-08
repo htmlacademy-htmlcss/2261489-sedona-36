@@ -198,9 +198,11 @@ body {
 }
 
 .advantages-item-wide {
+  display: flex;
   width: 1200px;
   color: #ffffff;
   background-color: #82b3d3;
+  align-items: center;
 }
 
 .advantages-image {
