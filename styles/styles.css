@@ -247,7 +247,7 @@ body {
   background-color: rgba(131, 179, 211, 0.12);
   justify-content: center;
   align-items: center;
-  padding: 85px;
+  padding: 112.5px 85px;
 }
 
 .advantages-item:nth-child(3) {
