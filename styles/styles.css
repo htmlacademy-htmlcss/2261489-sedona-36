@@ -125,6 +125,14 @@ body {
   padding: 69px 274.5px;
 }
 
+.features-main-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 347.5px;
+}
+
 .title {
   color: #000000;
   font-weight: 700;
