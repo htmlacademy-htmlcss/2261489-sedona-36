@@ -192,6 +192,16 @@ body {
   align-items: center;
 }
 
+.hotels-filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.hotels-infrastructure-container {
+  display: flex;
+}
+
 .reason,
 .search-hotel p,
 .subscribe-hotels p,
@@ -308,6 +318,8 @@ body {
   color: #ffffff;
   background: url("../img/subscribe-background.jpg") no-repeat #303030;
   background-size: 100% auto;
+  padding: 70px;
+  padding-top: 35px;
 }
 
 .sedona-hotels h1 {
