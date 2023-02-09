@@ -162,7 +162,6 @@ body {
   justify-content: center;
   align-items: center;
   padding: 96px 258px 104px;
-  gap: 10px;
 }
 
 .footer-contacts-container {
@@ -182,9 +181,9 @@ body {
 .contacts-phone-number {
   display: flex;
   justify-content: center;
-  width: 720px;
+  width: 331px;
   margin: 0;
-  padding: 0 41.5px;
+  padding: 5px 195px;
 }
 
 .contacts-htmlacademy-link {
