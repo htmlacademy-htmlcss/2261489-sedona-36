@@ -60,14 +60,17 @@ body {
   outline: 2px solid purple;
   margin: 0;
   padding: 20px 16px;
-  width: 500px;
+  width: 307px;
   justify-content: space-between;
+  margin-right: 285px;
 }
 
 .navigation-user {
   display: flex;
-  width: 300px;
+  width: 268px;
   margin-left: auto;
+  justify-content: space-between;
+  padding: 14px 0;
 }
 
 
@@ -83,6 +86,7 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 
 
 .phone-number {
@@ -376,6 +380,7 @@ body {
   text-transform: uppercase;
   padding: 8px 50px;
 }
+
 
 .button-search-hotel {
   font-size: 20px;
