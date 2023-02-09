@@ -73,7 +73,7 @@ body {
   padding: 14px 0;
 }
 
-
+/*
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -86,7 +86,7 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+*/
 
 
 .phone-number {
@@ -196,10 +196,29 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  width: 371px;
+}
+
+.hotels-catalog {
+  padding: 50px 70px 60px;
 }
 
 .hotels-infrastructure-container {
   display: flex;
+}
+
+.hotels-catalog-view {
+  display: flex;
+}
+
+.hotels-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hotel-card {
+
 }
 
 .reason,
@@ -339,6 +358,7 @@ body {
   line-height: 24px;
   font-weight: 700;
 }
+
 
 .control {
   font-size: 18px;
