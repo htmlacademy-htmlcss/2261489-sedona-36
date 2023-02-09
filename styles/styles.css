@@ -205,6 +205,7 @@ body {
 
 .hotels-infrastructure-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .hotels-catalog-view {
@@ -215,10 +216,11 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 0;
 }
 
 .hotel-card {
-
+  padding: 20px;
 }
 
 .reason,
@@ -419,7 +421,7 @@ body {
   border-radius: 4px;
   border-style: none;
   text-transform: uppercase;
-  padding: 8px 50px;
+  padding: 8px 26px;
 }
 
 
@@ -458,4 +460,32 @@ body {
   line-height: 20px;
   border-radius: 4px;
   border-style: none;
+}
+
+.pagination {
+  display: flex;
+}
+
+.pagination-item {
+  width: 60px;
+  height: 60px;
+  background-color: #82B3D3;
+  color:#ffffff;
+  border-radius: 4px;
+  margin-right: 8px;
+  text-align: center;
+}
+
+.pagination-item:first-child {
+  background-color: #F2F2F2;
+  color: #000000;
+}
+
+.pagination-item:last-child {
+  margin-right: 0;
+}
+
+.pagination-item:nth-last-child(2) {
+  background-color: #ffffff;
+  color: #000000;
 }

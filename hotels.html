@@ -62,27 +62,27 @@
             <form class="hotels-filter" action="https://echo.htmlacademy.ru" method="get">
               <h2 class="visually-hidden">Фильтр гостиниц</h2>
               <div class="hotels-infrastructure-container">
-              <fieldset class="hotels-filter-group">
-                <legend class="infrastructure">Инфраструктура:</legend>
-                <ul class="hotels-filter-list">
-                  <li class="hotels-filter-item">
-                    <label class="control">
-                      <input class="control-input" type="checkbox" name="swimming-pool" checked>Бассейн
-                    </label>
-                  </li>
-                  <li class="hotels-filter-item">
-                    <label class="control">
-                      <input class="control-input" type="checkbox" name="parking" checked>Парковка
-                    </label>
-                  </li>
-                  <li>
-                    <label class="control">
-                      <input class="control-input" type="checkbox" name="wi-fi">Wi-Fi
-                    </label>
-                  </li>
-                </ul>
-              </fieldset>
-            </div>
+                <fieldset class="hotels-filter-group">
+                  <legend class="infrastructure">Инфраструктура:</legend>
+                  <ul class="hotels-filter-list">
+                    <li class="hotels-filter-item">
+                      <label class="control">
+                        <input class="control-input" type="checkbox" name="swimming-pool" checked>Бассейн
+                      </label>
+                    </li>
+                    <li class="hotels-filter-item">
+                      <label class="control">
+                        <input class="control-input" type="checkbox" name="parking" checked>Парковка
+                      </label>
+                    </li>
+                    <li>
+                      <label class="control">
+                        <input class="control-input" type="checkbox" name="wi-fi">Wi-Fi
+                      </label>
+                    </li>
+                  </ul>
+                </fieldset>
+              </div>
 
               <fieldset class="hotels-filter-group">
                 <legend class="housing-type">Тип жилья:</legend>
@@ -114,6 +114,7 @@
         </section>
 
         <section class="hotels-catalog">
+          <div class="hotels-catalog-view">
           <h2 class="title">Найдено гостиниц: 38</h2>
           <select class="select-control" aria-label="Сортировка">
             <option value="cheap">Сначала дешевые</option>
@@ -129,6 +130,7 @@
           <a class="view-variant view-variant-list" href="#">
             <span class="visually-hidden">Список</span>
           </a>
+        </div>
 
           <ul class="hotels-list">
             <li class="hotel-card">
@@ -222,36 +224,37 @@
       <footer class="page-footer">
         <section class="footer-contacts">
           <h2 class="visually-hidden">Контакты</h2>
-          <ul class="contacts-social-list">
-            <li class="contacts-social-item">
-              <a class="icon" href="https://vk.com/htmlacademy">
-                <span class="visually-hidden">Вконтакте</span>
-              </a>
-            </li>
-            <li class="contacts-social-item">
-              <a class="icon" href="https://t.me/htmlacademy">
-                <span class="visually-hidden">Telegram</span>
-              </a>
-            </li>
-            <li class="contacts-social-item">
-              <a class="icon" href="https://www.youtube.com/channel/UChUxTMjJGo-JDRY8pNTGL2g">
-                <span class="visually-hidden">Youtube</span>
-              </a>
-            </li>
-          </ul>
-          <ul class="contacts-item">
-            <li class="contacts-phone-number">
-              <a class="phone-number" href=tel:+78128121212>+7(812)812-12-12</a>
-            </li>
-            <li class="contacts-htmlacademy-link">
+          <div class="footer-contacts-container">
+            <ul class="contacts-social-list">
+              <li class="contacts-social-item">
+                <a class="icon" href="https://vk.com/htmlacademy">
+                  <span class="visually-hidden">Вконтакте</span>
+                </a>
+              </li>
+              <li class="contacts-social-item">
+                <a class="icon" href="https://t.me/htmlacademy">
+                  <span class="visually-hidden">Telegram</span>
+                </a>
+              </li>
+              <li class="contacts-social-item">
+                <a class="icon" href="https://www.youtube.com/channel/UChUxTMjJGo-JDRY8pNTGL2g">
+                  <span class="visually-hidden">Youtube</span>
+                </a>
+              </li>
+            </ul>
+            <P class="contacts-phone-number">
+              <a class="phone-number" href=tel:+78128121212>+7 (812) 812-12-12</a>
+            </P>
+            <div class="contacts-htmlacademy-link">
               <a class="icon" href=https://htmlacademy.ru>
                 <img src="img/logo-htmlacademy.svg" alt="HTML-Academy" width="115" height="33">
                 <span class="visually-hidden">HTML-Academy</span>
               </a>
-            </li>
-          </ul>
-        </section>
-      </footer>
+            </div>
+          </div>
+    </div>
+    </section>
+    </footer>
     </div>
   </body>
 
