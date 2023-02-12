@@ -240,6 +240,18 @@ body {
   padding: 20px;
 }
 
+.type-price-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hotel-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .reason,
 .search-hotel p,
 .subscribe-hotels p,
@@ -456,6 +468,7 @@ body {
 .button-in-favorites {
   background-color: #7DB54F;
 }
+
 
 .rating-text {
   color: #333333;
