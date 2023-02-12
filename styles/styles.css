@@ -192,7 +192,19 @@ body {
 
 .hotels-filter {
   display: flex;
+  justify-content: space-between;
+  width: 371px;
+}
 
+.hotels-filter-list {
+  margin: 0;
+  padding: 0;
+  padding-top: 32px;
+}
+
+.hotels-filter-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .hotels-catalog {
@@ -357,6 +369,9 @@ body {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 
