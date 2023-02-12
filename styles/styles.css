@@ -475,6 +475,10 @@ body {
   background-color: #7DB54F;
 }
 
+.button-detail {
+  margin-right: 20px;
+}
+
 
 .rating-text {
   color: #333333;
