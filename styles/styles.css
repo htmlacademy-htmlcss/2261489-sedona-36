@@ -207,13 +207,21 @@ body {
   justify-content: space-between;
 }
 
+.hotels-filter-container-right {
+  display: flex;
+  justify-content: space-between;
+  width: 549px;
+}
+
+.hotels-filter-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
 .hotels-catalog {
   padding: 50px 70px 60px;
 }
 
-.hotels-infrastructure-container {
-
-}
 
 .hotels-catalog-view {
   display: flex;
@@ -374,6 +382,10 @@ body {
   border: none;
 }
 
+.hotels-filter-buttons {
+  display: flex;
+  flex-direction: column;
+}
 
 .control {
   font-size: 18px;
@@ -432,8 +444,13 @@ body {
   background-color: #82B3D3;
 }
 
+.button-apply {
+  padding: 8px 50px;
+}
+
 .button-reset {
   background-color: rgba(0,0,0,0);
+  padding: 8px 57.5px;
 }
 
 .button-in-favorites {
