@@ -30,7 +30,12 @@ body {
 }
 
 .page-header {
+  display: flex;
   padding: 0 70px;
+}
+
+.page-header-logo {
+  position: absolute;
 }
 
 .main-container {
@@ -58,6 +63,7 @@ body {
   display: flex;
   outline: 2px solid purple;
   margin: 0;
+  margin-left: 168px;
   padding: 20px 16px;
   width: 307px;
   justify-content: space-between;
@@ -66,9 +72,9 @@ body {
 .navigation-user {
   display: flex;
   width: 268px;
-  margin-left: auto;
   justify-content: space-between;
   padding: 14px 0;
+  margin-left: 285px;
 }
 
 
@@ -361,6 +367,7 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  color: #000000;
 }
 
 .subscribe-description {
@@ -493,17 +500,7 @@ body {
 .pagination {
   display: flex;
   margin-top: 40px;
-}
-
-.pagination-link {
-  color: #ffffff;
-  background: #82B3D3;
-  border-radius: 4px;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 36px;
-  align-items: center;
-  text-decoration: none;
+  padding: 0;
 }
 
 .pagination-item {
@@ -516,10 +513,21 @@ body {
   text-align: center;
 }
 
+.pagination-link {
+  color: #ffffff;
+  background: #82B3D3;
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  align-items: center;
+  text-decoration: none;
+}
 
 .pagination-item:first-child {
   background-color: #F2F2F2;
-  color: #000000;
 }
 
 .pagination-item:last-child {
@@ -529,4 +537,3 @@ body {
 .pagination-item:nth-last-child(2) {
   background-color: #ffffff;
   color: #000000;
-}
