@@ -190,7 +190,8 @@ body {
   align-items: center;
 }
 
-.hotels-filter-container {
+.hotels-filter {
+  display: flex;
 
 }
 
@@ -333,7 +334,7 @@ body {
 
 .sedona-hotels {
   color: #ffffff;
-  background: url("../img/subscribe-background.jpg") no-repeat #303030;
+  background: url("../img/filter-background.jpg") no-repeat #303030;
   background-size: 100% auto;
   padding: 70px;
   padding-top: 35px;
