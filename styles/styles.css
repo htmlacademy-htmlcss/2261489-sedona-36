@@ -200,29 +200,21 @@ body {
 .hotels-filter {
   display: flex;
   justify-content: space-between;
-  width: 371px;
 }
 
 .hotels-filter-list {
   margin: 0;
   padding: 0;
   padding-top: 32px;
+  width: 150px;
 }
 
-.hotels-filter-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.hotels-filter-container-right {
-  display: flex;
-  justify-content: space-between;
-  width: 549px;
-}
 
 .hotels-filter-buttons {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 525px;
 }
 
 .hotels-catalog {
@@ -519,7 +511,8 @@ body {
 
 .button-reset {
   background-color: rgba(0,0,0,0);
-  padding: 8px 57.5px;
+  padding: 8px 57px;
+  margin-top: 32px;
 }
 
 .button-in-favorites {
