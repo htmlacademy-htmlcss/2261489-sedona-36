@@ -125,7 +125,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 69px 274.5px;
+  padding: 69px 274px;
 }
 
 .features-main-title {
@@ -133,7 +133,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 64px 347.5px;
+  padding: 64px 347px;
 }
 
 .title {
@@ -354,7 +354,7 @@ body {
   background-color: rgba(131, 179, 211, 0.12);
   justify-content: center;
   align-items: center;
-  padding: 101.5px 85px;
+  padding: 101px 85px;
 }
 
 .advantages-item-wide-photo-bridge {
