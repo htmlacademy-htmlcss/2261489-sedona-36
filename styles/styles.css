@@ -410,9 +410,8 @@ body {
 .sedona-hotels {
   color: #ffffff;
   background: url("../img/filter-background.jpg") no-repeat #303030;
-  background-size: 100% auto;
+  background-size: cover;
   padding: 35px 43px 70px 70px;
-
 }
 
 
