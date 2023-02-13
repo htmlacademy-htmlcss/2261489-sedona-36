@@ -233,6 +233,8 @@ body {
 .hotels-catalog-view {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 40px;
 }
 
 .hotels-list {
@@ -409,15 +411,17 @@ body {
   color: #ffffff;
   background: url("../img/filter-background.jpg") no-repeat #303030;
   background-size: 100% auto;
-  padding: 70px;
-  padding-top: 35px;
+  padding: 35px 43px 70px 70px;
+
 }
+
 
 .sedona-hotels h1 {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
   margin: 0;
+  margin-bottom: 8px;
 }
 
 .breadcrumbs-item {
@@ -435,10 +439,19 @@ body {
   border: none;
 }
 
+.hotels-catalog-view .title {
+  margin-right: 200px;
+}
+
 .hotels-filter-buttons {
   display: flex;
   flex-direction: column;
 }
+
+.hotels-filter-item {
+  margin-bottom: 16px;
+}
+
 
 .control {
   font-size: 18px;
@@ -448,6 +461,10 @@ body {
 
 .select-control {
   color: #333333;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 14px 131px 20px 14px;
 }
 
 .hotel-card a,
@@ -542,11 +559,10 @@ body {
 }
 
 .pagination-link {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
   color: #ffffff;
-  background: #82B3D3;
-  width: 60px;
-  height: 60px;
-  border-radius: 4px;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -554,8 +570,16 @@ body {
   text-decoration: none;
 }
 
-.pagination-item:first-child {
+.pagination-current {
   background-color: #F2F2F2;
+  color: #000000;
+
+}
+
+.pagination-item span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pagination-item:last-child {
