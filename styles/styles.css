@@ -280,6 +280,7 @@ body {
   background: url("../img/welcome-bottom-decor.svg") no-repeat bottom,
               url("../img/index-background.jpg") no-repeat #ffffff;
   background-size: 100% auto;
+  min-height: 485px;
 }
 
 .main-welcome {
@@ -300,6 +301,7 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 .advantages-title-narrow,
