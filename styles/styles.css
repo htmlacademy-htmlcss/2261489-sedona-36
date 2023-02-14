@@ -239,6 +239,7 @@ body {
 
 .hotel-card {
   padding: 20px;
+  max-width: 300px;
 }
 
 .type-price-line {
@@ -503,6 +504,7 @@ body {
 .button-to-favorites {
   color: #ffffff;
   background-color: #82B3D3;
+  padding: 8px 20px;
 }
 
 .button-apply {
@@ -517,10 +519,6 @@ body {
 
 .button-in-favorites {
   background-color: #7DB54F;
-}
-
-.button-detail {
-  margin-right: 20px;
 }
 
 
