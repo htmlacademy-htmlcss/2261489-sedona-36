@@ -230,9 +230,9 @@ body {
 }
 
 .hotels-list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 340px 340px 340px;
+  gap: 20px;
   margin: 0;
   padding: 0;
 }
