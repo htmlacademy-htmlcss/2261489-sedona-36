@@ -374,6 +374,14 @@ body {
 
 }
 
+.subscribe-form {
+  display: flex;
+}
+
+.subscribe-input {
+  width: 452px;
+}
+
 .subscribe-index h2,
 .subscribe-hotels h2 {
   font-size: 30px;
@@ -381,6 +389,7 @@ body {
   text-transform: uppercase;
   color: #000000;
   margin: 0;
+  margin-bottom: 20px;
 }
 
 .subscribe-index h2 {
@@ -392,6 +401,8 @@ body {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+  margin: 0;
+  margin-bottom: 54px;
 }
 
 .sedona-hotels {
