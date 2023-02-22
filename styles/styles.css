@@ -173,13 +173,14 @@ body {
   display: grid;
   margin: 40px 70px 30px;
   outline: 2px solid royalblue;
-  grid-template-columns: 184px 720px 156px;
+  grid-template-columns: 142px 720px 115px;
+  gap: 40px;
 }
 
 .contacts-social-list {
   display: flex;
   outline: 2px solid rgb(0, 128, 68);
-  width: 160px;
+  width: 142px;
   margin: 0;
   padding: 0;
 }
@@ -196,6 +197,7 @@ body {
   display: flex;
   width: 115px;
   align-items: center;
+  margin-left: auto;
 }
 
 .hotels-filter {
