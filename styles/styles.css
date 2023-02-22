@@ -170,9 +170,10 @@ body {
 
 
 .footer-contacts-container {
-  display: flex;
-  margin: 0;
-  padding: 40px 70px 30px;
+  display: grid;
+  margin: 40px 70px 30px;
+  outline: 2px solid royalblue;
+  grid-template-columns: 184px 720px 156px;
 }
 
 .contacts-social-list {
