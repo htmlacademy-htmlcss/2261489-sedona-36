@@ -174,7 +174,7 @@ body {
   margin: 40px 70px 30px;
   outline: 2px solid royalblue;
   grid-template-columns: 142px 720px 115px;
-  gap: 40px;
+  gap:40px;
 }
 
 .contacts-social-list {
@@ -491,6 +491,7 @@ body {
   border-style: none;
   text-transform: uppercase;
   padding: 8px 26px;
+  cursor: pointer;
 }
 
 
