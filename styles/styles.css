@@ -538,6 +538,7 @@ body {
   padding: 8px 22px;
   border-radius: 4px;
   border-style: none;
+  cursor: default;
 }
 
 .pagination {
