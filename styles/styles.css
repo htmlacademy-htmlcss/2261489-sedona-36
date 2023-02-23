@@ -241,26 +241,15 @@ body {
 }
 
 .hotel-card {
+  display: grid;
+  grid-template-columns: repeat(2, 140px);
+  gap: 16px 20px;
   padding: 20px;
   max-width: 300px;
 }
 
-.type-price-line {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.hotel-card-buttons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.hotel-rating {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.hotel-card-link {
+  grid-column: 1/-1;
 }
 
 .reason,
@@ -528,6 +517,8 @@ body {
 
 .button-in-favorites {
   background-color: #7DB54F;
+  padding: 8px 18px;
+  cursor: default;
 }
 
 
@@ -537,6 +528,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  padding: 8px 22px;
   border-radius: 4px;
   border-style: none;
 }
