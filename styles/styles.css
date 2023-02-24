@@ -107,13 +107,11 @@ body {
   position: relative;
 }
 
-.icon-tg {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin: auto;
+.icon-tg,
+.icon-vk,
+.icon-yt {
+  display: block;
+  padding: 16px 10px;
 }
 
 
