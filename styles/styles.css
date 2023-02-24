@@ -69,12 +69,24 @@ body {
   justify-content: space-between;
 }
 
+.navigation-item {
+  outline: 2px solid forestgreen;
+}
+
 .navigation-user {
   display: flex;
   width: 268px;
   justify-content: space-between;
   padding: 14px 0;
   margin-left: 285px;
+
+}
+
+.search-icon {
+  background-image: url("img/search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 20px;
 }
 
 
@@ -89,6 +101,19 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.contacts-social-item {
+  position: relative;
+}
+
+.icon-tg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
 }
 
 
