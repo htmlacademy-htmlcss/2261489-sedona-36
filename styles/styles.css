@@ -98,6 +98,21 @@ body {
 
 .favourites-icon {
   background-image: url("../img/heart.svg");
+  position: relative;
+}
+
+.number-in-favourites {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 24px;
+  top: -3px;
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: 400;
+  background-color: #7DB54F;
+  color: #ffffff;
+  border-radius: 50%;
 }
 
 
