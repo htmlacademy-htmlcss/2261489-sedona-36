@@ -82,11 +82,22 @@ body {
 
 }
 
-.search-icon {
-  background-image: url("img/search.svg");
+.search-icon,
+.favourites-icon {
+  width: 20px;
+  height: 20px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px 20px;
+  padding: 8px 12px;
+}
+
+.search-icon {
+  background-image: url("../img/search.svg");
+}
+
+.favourites-icon {
+  background-image: url("../img/heart.svg");
 }
 
 
@@ -114,6 +125,16 @@ body {
   padding: 16px 10px;
 }
 
+.icon-tg:hover {
+  color: tomato;
+}
+
+.icon-tg:active,
+.icon-vk:active,
+.icon-yt:active {
+  color: rgba(104, 162, 202, 0.3);
+}
+
 
 .phone-number {
   color: #000000;
@@ -135,8 +156,6 @@ body {
 
 .navigation-link {
   display: block;
-  width: 30px;
-  height: 30px;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
