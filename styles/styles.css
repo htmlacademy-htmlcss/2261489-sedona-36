@@ -545,6 +545,9 @@ body {
   margin: 0;
 }
 
+.view-variant-tile {
+  border: 2px solid #000000;
+}
 
 .hotel-card a,
 .navigation-item a {
