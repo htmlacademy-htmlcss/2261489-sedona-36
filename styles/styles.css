@@ -203,10 +203,11 @@ body {
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
-  margin-right: 192px;
-
 }
 
+results-title {
+  margin-right: 192px;
+}
 
 .search-hotel,
 .features-description {
@@ -500,6 +501,16 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 13px 15px;
+}
+
+.arrow-icon {
+  display: block;
+  width: 8px;
+  height: 20px;
+  background-image: url("../img/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 8px 20px;
 }
 
 .hotels-filter-group {
