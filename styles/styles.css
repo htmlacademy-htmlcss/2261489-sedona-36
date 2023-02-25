@@ -203,6 +203,7 @@ body {
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
+  margin-right: 192px;
 
 }
 
@@ -291,6 +292,8 @@ body {
   align-items: flex-end;
   margin-bottom: 40px;
 }
+
+
 
 .hotels-list {
   display: grid;
@@ -518,8 +521,30 @@ body {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  padding: 14px 131px 20px 14px;
+  padding: 14px 131px 14px 20px;
 }
+
+.view-variant {
+    box-sizing: border-box;
+    width: 48px;
+    height: 48px;
+    border: 2px solid #E5E5E5;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.view-variant:last-child {
+  margin-right: 0;
+}
+
+.view-variant-tile,
+.view-variant-slideshow,
+.view-variant-list {
+  display: block;
+  padding: 17px 16px;
+  margin: 0;
+}
+
 
 .hotel-card a,
 .navigation-item a {
