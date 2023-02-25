@@ -399,6 +399,36 @@ results-title {
   padding: 81px 85px;
 }
 
+.housing-icon {
+  display: block;
+  width: 75px;
+  height: 72px;
+  background-image: url("../img/housing.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75px 72px;
+}
+
+.food-icon {
+  display: block;
+  width: 75px;
+  height: 72px;
+  background-image: url("../img/food.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75px 72px;
+}
+
+.souvenirs-icon {
+  display: block;
+  width: 75px;
+  height: 72px;
+  background-image: url("../img/souvenirs.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75px 72px;
+}
+
 .advantages-item-wide {
   display: flex;
   flex-direction: column;
@@ -503,35 +533,6 @@ results-title {
   background-size: 13px 15px;
 }
 
-.housing-icon {
-  display: block;
-  width: 75px;
-  height: 72px;
-  background-image: url("../img/housing.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 75px 72px;
-}
-
-.food-icon {
-  display: block;
-  width: 75px;
-  height: 72px;
-  background-image: url("../img/food.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 75px 72px;
-}
-
-.souvenirs-icon {
-  display: block;
-  width: 75px;
-  height: 72px;
-  background-image: url("../img/souvenirs.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 75px 72px;
-}
 
 .arrow-icon {
   display: block;
@@ -716,6 +717,11 @@ results-title {
   text-align: center;
 }
 
+.pagination-item:hover,
+.pagination-item:focus {
+  background-color: #68A2CA;
+}
+
 .pagination-link {
   display: flex;
   justify-content: center;
@@ -726,6 +732,10 @@ results-title {
   line-height: 36px;
   align-items: center;
   text-decoration: none;
+}
+
+.pagination-link:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .pagination-current {
