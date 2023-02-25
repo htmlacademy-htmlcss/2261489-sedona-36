@@ -578,7 +578,21 @@ body {
   cursor: pointer;
 }
 
+.stars-wrapper {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4,18px);
+  column-gap: 6px;
+}
 
+.star {
+  width: 18px;
+  height: 17px;
+  margin-right: 6px;
+  background-size: 18px 17px;
+  background-image: url("../img/star.svg");
+  background-repeat: no-repeat;
+}
 
 .button-search-hotel {
   font-size: 20px;
