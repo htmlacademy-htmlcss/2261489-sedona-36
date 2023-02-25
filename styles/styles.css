@@ -696,6 +696,20 @@ results-title {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.button-in-favorites:hover,
+.button-in-favorites:active,
+.button-apply:focus {
+  cursor: default;
+  background-color: #7DB54F;
+  color: #ffffff;
+}
+
+.rating-text:hover,
+.rating-text:active,
+.rating-text:focus {
+  background-color: #F2F2F2;
+}
+
 .stars-wrapper {
   display: grid;
   align-items: center;
