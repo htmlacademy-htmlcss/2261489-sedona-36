@@ -677,6 +677,25 @@ results-title {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.button:disabled {
+  background-color: #E5E5E5;
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus,
+.button-apply:hover,
+.button-apply:focus,
+.button-to-favorites:hover,
+.button-to-favorites:focus {
+  background-color: #68A2CA;
+}
+
+.subscribe-button:active,
+.button-apply:active,
+.button-to-favorites:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .stars-wrapper {
   display: grid;
   align-items: center;
