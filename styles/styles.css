@@ -150,6 +150,7 @@ body {
 .phone-number:hover,
 .phone-number:focus {
   color: #756157;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .phone-number:active {
@@ -631,6 +632,7 @@ body {
   margin: 0;
 }
 
+
 .view-variant:hover,
 .view-variant:active {
   fill: #000000;
@@ -756,6 +758,46 @@ a:active path {
   color: #ffffff;
 }
 
+.button-reset:hover {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-reset:focus {
+  border: 3px solid #83B3D3;
+}
+
+.control:hover {
+  opacity: 0.6;
+}
+
+.control:active {
+  opacity: 0.3;
+}
+
+.hotel-group:focus {
+  color: tomato;
+}
+
+.select-control {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+.select-control:hover,
+.select-control:focus {
+  border: 2px solid #68A2CA;
+  border-radius: 4px;
+}
+
+.select-control:active {
+  border: 2px solid #3F5E72;
+  border-radius: 4px;
+}
+
+.select-control:disabled {
+  color: rgba(0, 0, 0, 0.3);
+}
+
 .rating-text {
   color: #333333;
   background-color: #F2F2F2;
@@ -795,8 +837,6 @@ a:active path {
   line-height: 36px;
   text-decoration: none;
 }
-
-
 
 .pagination {
   display: flex;
