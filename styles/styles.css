@@ -59,6 +59,21 @@ body {
   margin: 0;
 }
 
+.index-link {
+  position: relative;
+}
+
+.index-link::before {
+  position: absolute;
+  content: "";
+  width: 68px;
+  height: 2px;
+  bottom: -20px;
+  left: 50%;
+  margin-left: -34px;
+  background-color: rgba(117, 98, 87, 1);
+}
+
 .navigation-items {
   display: flex;
   outline: 2px solid purple;
@@ -156,8 +171,6 @@ body {
 .phone-number:active {
   color: rgba(117, 97, 87, 0.3);
 }
-
-
 
 .navigation-items,
 .contacts-item,
@@ -550,6 +563,14 @@ body {
 .breadcrumbs-item {
   font-size: 16px;
   line-height: 21px;
+}
+
+.breadcrumbs-link:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumbs-link:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .main-link {
