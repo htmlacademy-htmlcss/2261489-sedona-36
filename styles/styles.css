@@ -140,23 +140,23 @@ body {
   padding: 16px 10px;
 }
 
-.icon-tg:hover {
-  fill: tomato;
-}
-
-.icon-tg:active,
-.icon-vk:active,
-.icon-yt:active {
-  color: rgba(104, 162, 202, 0.3);
-}
-
-
 .phone-number {
   color: #000000;
   font-size: 40px;
   line-height: 40px;
   text-decoration: none;
 }
+
+.phone-number:hover,
+.phone-number:focus {
+  color: #756157;
+}
+
+.phone-number:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
+
 
 .navigation-items,
 .contacts-item,
@@ -205,7 +205,7 @@ body {
   text-transform: uppercase;
 }
 
-results-title {
+.results-title {
   margin-right: 192px;
 }
 
@@ -253,10 +253,6 @@ results-title {
   width: 331px;
   margin: 0;
   padding: 5px 195px;
-}
-
-.contacts-phone-number:hover {
-
 }
 
 .contacts-htmlacademy-link {
@@ -653,6 +649,24 @@ results-title {
   margin-top: 16px;
 }
 
+a:hover path,
+a:focus path {
+  fill: #68A2CA;
+}
+
+a:active path {
+  fill: rgba(104, 162, 202, 0.3);
+}
+
+.htmlacademy-link:hover path,
+.htmlacademy-link:focus path {
+  fill: #756157;
+}
+
+.htmlacademy-link:active path {
+  fill: rgba(117, 97, 87, 0.3);
+}
+
 .button {
   display: inline-block;
   background-color: #756157;
@@ -681,6 +695,36 @@ results-title {
   background-color: #E5E5E5;
 }
 
+.subscribe-button {
+  border-radius: 0px 4px 4px 0px;
+  background-color: #82B3D3;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.button-apply,
+.button-to-favorites {
+  color: #ffffff;
+  background-color: #82B3D3;
+  padding: 8px 20px;
+}
+
+.button-in-favorites {
+  background-color: #7DB54F;
+  padding: 8px 18px;
+  cursor: default;
+}
+
+.button-apply {
+  padding: 8px 50px;
+}
+
+.button-reset {
+  background-color: rgba(0,0,0,0);
+  padding: 8px 57px;
+  margin-top: 32px;
+}
+
 .subscribe-button:hover,
 .subscribe-button:focus,
 .button-apply:hover,
@@ -702,6 +746,22 @@ results-title {
   cursor: default;
   background-color: #7DB54F;
   color: #ffffff;
+}
+
+.button-reset:hover {
+
+}
+
+.rating-text {
+  color: #333333;
+  background-color: #F2F2F2;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 8px 22px;
+  border-radius: 4px;
+  border-style: none;
+  cursor: default;
 }
 
 .rating-text:hover,
@@ -732,48 +792,6 @@ results-title {
   text-decoration: none;
 }
 
-.subscribe-button {
-  border-radius: 0px 4px 4px 0px;
-  background-color: #82B3D3;
-  font-size: 20px;
-  line-height: 36px;
-}
-
-.button-apply,
-.button-to-favorites {
-  color: #ffffff;
-  background-color: #82B3D3;
-  padding: 8px 20px;
-}
-
-.button-apply {
-  padding: 8px 50px;
-}
-
-.button-reset {
-  background-color: rgba(0,0,0,0);
-  padding: 8px 57px;
-  margin-top: 32px;
-}
-
-.button-in-favorites {
-  background-color: #7DB54F;
-  padding: 8px 18px;
-  cursor: default;
-}
-
-
-.rating-text {
-  color: #333333;
-  background-color: #F2F2F2;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  padding: 8px 22px;
-  border-radius: 4px;
-  border-style: none;
-  cursor: default;
-}
 
 .pagination {
   display: flex;
