@@ -631,8 +631,16 @@ body {
   margin: 0;
 }
 
-.view-variant-tile {
+.view-variant:hover,
+.view-variant:active {
+  fill: #000000;
   border: 2px solid #000000;
+  border-radius: 4px;
+}
+
+.view-variant:focus {
+  fill: #000000;
+  border: 2px solid #68A2CA;
 }
 
 .hotel-card a,
@@ -748,10 +756,6 @@ a:active path {
   color: #ffffff;
 }
 
-.button-reset:hover {
-
-}
-
 .rating-text {
   color: #333333;
   background-color: #F2F2F2;
@@ -791,6 +795,7 @@ a:active path {
   line-height: 36px;
   text-decoration: none;
 }
+
 
 
 .pagination {
