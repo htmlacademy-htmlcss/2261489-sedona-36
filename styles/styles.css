@@ -59,11 +59,13 @@ body {
   margin: 0;
 }
 
-.index-link {
+.navigation-link-current {
   position: relative;
 }
 
-.index-link::before {
+
+
+.navigation-link-current::before {
   position: absolute;
   content: "";
   width: 68px;
