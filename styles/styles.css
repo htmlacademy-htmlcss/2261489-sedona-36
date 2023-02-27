@@ -912,6 +912,11 @@ body {
   text-align: center;
 }
 
+.pagination-item span {
+  display: flex;
+  justify-content: center;
+}
+
 .pagination-item:hover,
 .pagination-item:focus {
   background-color: #68A2CA;
