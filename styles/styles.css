@@ -788,29 +788,24 @@ body {
   margin-top: 32px;
 }
 
-.subscribe-button:hover,
-.subscribe-button:focus,
-.button-apply:hover,
-.button-apply:focus,
-.button-to-favorites:hover,
-.button-to-favorites:focus {
+.button-blue:hover,
+.button-blue:focus {
   background-color: #68A2CA;
 }
 
-.subscribe-button:active,
-.button-apply:active,
-.button-to-favorites:active {
+.button-blue:active,
+.button-reset:active  {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.button-in-favorites:hover,
-.button-in-favorites:focus {
+.button-green:hover,
+.button-green:focus {
   cursor: default;
   background-color: #6C9E42;
   color: #ffffff;
 }
 
-.button-in-favorites:active {
+.button-green:active {
   background-color: #7DB54F;
 }
 
@@ -824,10 +819,6 @@ body {
   border: 3px solid #83B3D3;
 }
 
-.button-reset:active {
-  color: rgba(255, 255, 255, 0.3);
-}
-
 
 .control:hover {
   opacity: 0.6;
@@ -835,11 +826,6 @@ body {
 
 .control:active {
   opacity: 0.3;
-}
-
-.control-input:hover {
-  background-color: tomato;
-  border-color: tomato;
 }
 
 .select-control {
