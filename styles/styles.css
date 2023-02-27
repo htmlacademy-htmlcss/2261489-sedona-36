@@ -426,6 +426,7 @@ body {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+
 .advantages-item,
 .features-item {
   position: relative;
@@ -442,9 +443,7 @@ body {
   padding: 81px 85px;
 }
 
-.features-title:first-child:before {
-  position: absolute;
-  content: "";
+.housing-icon {
   display: block;
   width: 75px;
   height: 72px;
@@ -564,22 +563,31 @@ body {
 }
 
 .breadcrumbs-item {
-  position: relative;
   font-size: 16px;
   line-height: 21px;
 }
 
-.breadcrumbs-link:not(:last-child)::after {
+.breadcrumbs-link {
+  display: block;
+  position: relative;
+}
+
+.breadcrumbs-link::after {
   display: block;
   position: absolute;
   content: "";
-  left: 23px;
+  top: 0px;
+  right: -18px;
   width: 8px;
   height: 20px;
   background-image: url("../img/arrow.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 8px 20px;
+}
+
+.breadcrumbs-item:last-child .breadcrumbs-link::after {
+  content: none;
 }
 
 .breadcrumbs-link:hover {
@@ -687,12 +695,12 @@ body {
   margin-top: 16px;
 }
 
-social-icon:hover path,
-social-icon:focus path {
+.social-icon:hover path,
+.social-icon:focus path {
   fill: #68A2CA;
 }
 
-social-icon:active path {
+.social-icon:active path {
   fill: rgba(104, 162, 202, 0.3);
 }
 
