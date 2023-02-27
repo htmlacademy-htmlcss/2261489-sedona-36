@@ -780,11 +780,14 @@ body {
 }
 
 .button-in-favorites:hover,
-.button-in-favorites:active,
-.button-apply:focus {
+.button-in-favorites:focus {
   cursor: default;
-  background-color: #7DB54F;
+  background-color: #6C9E42;
   color: #ffffff;
+}
+
+.button-in-favorites:active {
+  background-color: #7DB54F;
 }
 
 .button-reset:hover {
@@ -810,8 +813,9 @@ body {
   opacity: 0.3;
 }
 
-.hotel-group:focus {
-  color: tomato;
+.control-input:hover {
+  background-color: tomato;
+  border-color: tomato;
 }
 
 .select-control {
