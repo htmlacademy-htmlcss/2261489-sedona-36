@@ -379,6 +379,7 @@ body {
 
 .features-list {
   display: flex;
+  position: relative;
   margin: 0;
   padding: 0;
   flex-wrap: wrap;
@@ -429,7 +430,6 @@ body {
 
 .advantages-item,
 .features-item {
-  position: relative;
   display: flex;
   flex-direction: column;
   width: 230px;
@@ -443,8 +443,16 @@ body {
   padding: 81px 85px;
 }
 
-.housing-icon {
+.features-title {
+  margin: 0;
+  padding-top: 112px;
+}
+
+.features-title.housing::before {
   display: block;
+  position: absolute;
+  content: "";
+  top: 0;
   width: 75px;
   height: 72px;
   background-image: url("../img/housing.svg");
@@ -453,8 +461,12 @@ body {
   background-size: 75px 72px;
 }
 
-.food-icon {
+.features-title.food::before {
   display: block;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -15px;
   width: 75px;
   height: 72px;
   background-image: url("../img/food.svg");
@@ -463,8 +475,12 @@ body {
   background-size: 75px 72px;
 }
 
-.souvenirs-icon {
+.features-title.souvenirs::before {
   display: block;
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 15px;
   width: 75px;
   height: 72px;
   background-image: url("../img/souvenirs.svg");
