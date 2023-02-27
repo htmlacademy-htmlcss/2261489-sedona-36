@@ -150,9 +150,7 @@ body {
   position: relative;
 }
 
-.icon-tg,
-.icon-vk,
-.icon-yt {
+.social-icon {
   display: block;
   padding: 16px 10px;
 }
@@ -430,6 +428,7 @@ body {
 
 .advantages-item,
 .features-item {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 230px;
@@ -443,7 +442,9 @@ body {
   padding: 81px 85px;
 }
 
-.housing-icon {
+.features-title:first-child:before {
+  position: absolute;
+  content: "";
   display: block;
   width: 75px;
   height: 72px;
@@ -558,13 +559,27 @@ body {
 
 .breadcrumbs {
   display: flex;
-  gap: 10px;
+  gap: 28px;
   padding: 0;
 }
 
 .breadcrumbs-item {
+  position: relative;
   font-size: 16px;
   line-height: 21px;
+}
+
+.breadcrumbs-link:not(:last-child)::after {
+  display: block;
+  position: absolute;
+  content: "";
+  left: 23px;
+  width: 8px;
+  height: 20px;
+  background-image: url("../img/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 8px 20px;
 }
 
 .breadcrumbs-link:hover {
@@ -585,16 +600,6 @@ body {
   background-size: 13px 15px;
 }
 
-
-.arrow-icon {
-  display: block;
-  width: 8px;
-  height: 20px;
-  background-image: url("../img/arrow.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 8px 20px;
-}
 
 .hotels-filter-group {
   color: #ffffff;
@@ -682,18 +687,12 @@ body {
   margin-top: 16px;
 }
 
-.icon-tg:hover path,
-.icon-tg:focus path,
-.icon-vk:hover path,
-.icon-vk:focus path,
-.icon-yt:hover path,
-.icon-yt:focus path {
+social-icon:hover path,
+social-icon:focus path {
   fill: #68A2CA;
 }
 
-.icon-tg:active path,
-.icon-vk:active path,
-.icon-yt:active path {
+social-icon:active path {
   fill: rgba(104, 162, 202, 0.3);
 }
 
