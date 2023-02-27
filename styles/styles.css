@@ -680,12 +680,18 @@ body {
   margin-top: 16px;
 }
 
-a:hover path,
-a:focus path {
+.icon-tg:hover path,
+.icon-tg:focus path,
+.icon-vk:hover path,
+.icon-vk:focus path,
+.icon-yt:hover path,
+.icon-yt:focus path {
   fill: #68A2CA;
 }
 
-a:active path {
+.icon-tg:active path,
+.icon-vk:active path,
+.icon-yt:active path {
   fill: rgba(104, 162, 202, 0.3);
 }
 
