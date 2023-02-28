@@ -669,10 +669,9 @@ body {
 
 .select-control {
   color: #333333;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  padding: 14px 131px 14px 20px;
+  width: 292px;
+  margin-right: 70px;
+  padding: 14px 125px 14px 20px;
 }
 
 .view-variant {
