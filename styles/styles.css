@@ -40,7 +40,6 @@ body {
 
 .main-container {
   flex-grow: 1;
-  outline: 2px solid rgb(0, 128, 68);
 }
 
 
@@ -70,11 +69,10 @@ body {
 .navigation-link-current::before {
   position: absolute;
   content: "";
-  width: min-content;
   height: 2px;
-  bottom: -20px;
-  left: 50%;
-  margin-left: -34px;
+  bottom: -6px;
+  left: 10px;
+  right: 10px;
   background-color: rgba(117, 98, 87, 1);
 }
 
@@ -678,6 +676,7 @@ body {
 .view-variant {
     display: block;
     box-sizing: border-box;
+    position: ;
     width: 48px;
     height: 48px;
     border: 2px solid #E5E5E5;
