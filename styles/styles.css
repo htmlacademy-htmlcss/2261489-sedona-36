@@ -684,6 +684,10 @@ body {
     margin-right: 8px;
 }
 
+.view-variant svg {
+  position: absolute;
+}
+
 .view-variant:last-child {
   margin-right: 0;
 }
