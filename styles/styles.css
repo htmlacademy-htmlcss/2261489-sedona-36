@@ -58,6 +58,7 @@ body {
 .navigation {
   display: flex;
   margin: 0;
+  height: 64px;
 }
 
 .navigation-link-current {
@@ -82,13 +83,16 @@ body {
   outline: 2px solid purple;
   margin: 0;
   margin-left: 168px;
-  padding: 20px 16px;
-  width: 307px;
+  padding: 0;
+  width: 339px;
   justify-content: space-between;
 }
 
 .navigation-item {
   outline: 2px solid forestgreen;
+  display: flex;
+  align-items: center;
+  padding: 0;
 }
 
 .navigation-user {
@@ -97,7 +101,14 @@ body {
   justify-content: space-between;
   padding: 14px 0;
   margin-left: 285px;
+}
 
+.want-here {
+  display: block;
+  text-align: center;
+  margin-left: 20px;
+  width: 160px;
+  padding: 8px 0;
 }
 
 .search-icon,
