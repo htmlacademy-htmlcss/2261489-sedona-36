@@ -103,14 +103,6 @@ body {
   margin-left: 285px;
 }
 
-.want-here {
-  display: block;
-  text-align: center;
-  margin-left: 20px;
-  width: 160px;
-  padding: 8px 0;
-}
-
 .search-icon,
 .favourites-icon {
   width: 20px;
@@ -761,6 +753,14 @@ body {
   text-transform: uppercase;
   padding: 8px 26px;
   cursor: pointer;
+}
+
+.want-here {
+  display: block;
+  text-align: center;
+  margin-left: 20px;
+  width: 92px;
+  padding: 8px 34px;
 }
 
 .button:hover,
