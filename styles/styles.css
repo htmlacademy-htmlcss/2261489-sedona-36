@@ -224,6 +224,7 @@ body {
 }
 
 .results-title {
+  margin: 0;
   margin-right: 192px;
 }
 
