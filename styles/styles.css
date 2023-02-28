@@ -841,7 +841,7 @@ body {
 
 .button-reset:focus {
   background-color: rgba(0,0,0,0);
-  border: 3px solid #83B3D3;
+  box-shadow: 0 0 0 3px #83b3d3;
 }
 
 
