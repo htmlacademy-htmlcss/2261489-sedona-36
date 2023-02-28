@@ -955,12 +955,6 @@ body {
 
 }
 
-.pagination-item span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .pagination-item:last-child {
   margin-right: 0;
 }
