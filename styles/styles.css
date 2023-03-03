@@ -297,7 +297,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-left: 525px;
+  margin-left: 55px;
 }
 
 .hotels-catalog {
@@ -636,7 +636,8 @@ body {
 }
 
 
-.hotels-filter-group {
+.hotels-filter-group,
+.catalog-price-range {
   color: #ffffff;
   font-size: 20px;
   line-height: 24px;
@@ -673,7 +674,56 @@ body {
   line-height: 21px;
   width: 292px;
   margin-right: 70px;
-  padding: 14px 105px 14px 20px;
+  padding: 12px 20px;
+}
+
+.catalog-price-range {
+  display: flex;
+  gap: 2px;
+  width: 288px;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-filter-title {
+  margin-bottom: 32px;
+}
+
+.range {
+  display: flex;
+  gap: 2px;
+}
+
+.price-from,
+.price-to {
+  position: relative;
+  width: 143px;
+  height: 48px;
+}
+
+.price-from-text,
+.price-to-text {
+  box-sizing: border-box;
+  width: 143px;
+  color: #000000;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  padding: 12px 20px;
+}
+
+.range span {
+    position: absolute;
+    color: #000000;
+    top: 50%;
+    right: 20px;
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    transform: translateY(-50%);
+    opacity: 0.3;
 }
 
 .view-variant {
