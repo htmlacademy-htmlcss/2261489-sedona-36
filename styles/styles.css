@@ -679,6 +679,7 @@ body {
 
 .catalog-price-range {
   display: flex;
+  flex-wrap: wrap;
   gap: 2px;
   width: 288px;
   border: none;
@@ -693,6 +694,7 @@ body {
 .range {
   display: flex;
   gap: 2px;
+  margin-bottom: 15px;
 }
 
 .price-from,
@@ -730,6 +732,34 @@ input::-webkit-inner-spin-button {
     font-weight: 400;
     transform: translateY(-50%);
     opacity: 0.3;
+}
+
+.range-scale {
+  position: relative;
+  width: 287px;
+  height: 4px;
+  background-color: #A9A9A9;
+}
+
+.range-bar {
+  position: absolute;
+  width: 226px;
+  height: 4px;
+  background-color: #FFFFFF;
+}
+
+.toggle-min,
+.toggle-max {
+  position: absolute;
+  top: -10px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.toggle-max {
+  left: 207px;
 }
 
 .view-variant {
