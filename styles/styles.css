@@ -295,13 +295,37 @@ display: flex;
   margin: auto;
   padding: 64px 70px;
   background-color: #ffffff;
+  box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
 }
 
 .modal-search-form {
   width: 771px;
 }
 
+.modal-close-button {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 64px;
+  right: 52px;
+  width: 52px;
+  height: 52px;
+  background-color: #F2F2F2;
+  border-radius: 50%;
+  border: none;
+  background-image: url("../img/close-button.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
 
+.modal-title {
+  margin: 0;
+  margin-bottom: 64px;
+  padding: 0;
+  text-align: left;
+}
 
 
 .hotels-filter {
