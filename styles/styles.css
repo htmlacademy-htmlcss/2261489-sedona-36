@@ -280,6 +280,30 @@ body {
   margin-left: auto;
 }
 
+.modal-container {
+position: fixed;
+background-color: rgba(242, 242, 242, 0.8);
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+}
+
+.modal {
+  position: relative;
+  margin: auto;
+  padding: 64px 70px;
+  background-color: #ffffff;
+}
+
+.modal-search-form {
+  width: 771px;
+}
+
+
+
+
 .hotels-filter {
   display: flex;
   justify-content: space-between;
