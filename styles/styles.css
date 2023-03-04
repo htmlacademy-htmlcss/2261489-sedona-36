@@ -662,9 +662,59 @@ body {
 
 
 .control {
+  position: relative;
+  display: block;
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
+  padding-left: 36px;
+}
+
+.control-mark {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 2px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.control:focus .control-mark {
+  border: 3px solid #83B3D3;
+}
+
+.control:hover .control-mark {
+  opacity: 0.6;
+}
+
+.control:active .control-mark {
+  opacity: 0.3;
+}
+
+
+.control-input[type="checkbox"]:checked + .control-mark::before {
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 4px;
+  width: 12px;
+  height: 10px;
+  background-image: url("../img/check-mark.svg");
+}
+
+.control-input[type="radio"] + .control-mark {
+  border-radius: 50%;
+}
+
+.control-input[type="radio"]:checked + .control-mark::before {
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 11px;
+  background-image: url("../img/point.svg");
 }
 
 .select-control {
@@ -751,11 +801,12 @@ input::-webkit-inner-spin-button {
 .toggle-min,
 .toggle-max {
   position: absolute;
-  top: -10px;
+  top: -8px;
   width: 20px;
   height: 20px;
   border: none;
   border-radius: 4px;
+  padding: 0;
 }
 
 .toggle-max {
@@ -945,6 +996,7 @@ input::-webkit-inner-spin-button {
 .select-control {
   border: 2px solid rgba(0, 0, 0, 0.3);
   border-radius: 4px;
+  margin-right: auto;
 }
 
 .select-control:hover,
