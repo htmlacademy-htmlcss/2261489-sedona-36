@@ -725,6 +725,10 @@ body {
   width: 292px;
   margin-right: 70px;
   padding: 12px 20px;
+  background-image: url("../img/select-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  appearance: none;
 }
 
 .catalog-price-range {
