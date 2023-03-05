@@ -334,7 +334,8 @@ display: flex;
   grid-template-rows: repeat(5, 48px);
 }
 
-.search-form input {
+.arrival-date,
+.departure-date {
   background-color: #F2F2F2;
   color: #000000;
   padding: 12px 20px;
@@ -393,6 +394,8 @@ display: flex;
   text-align: center;
   width: 31px;
   padding: 0;
+  background-color: #F2F2F2;
+  border: none;
 }
 
 .quantity {
