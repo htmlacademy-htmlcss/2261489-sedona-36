@@ -189,7 +189,6 @@
     </div>
     </section>
     </footer>
-    </div>
 
     <div class="modal-container">
       <div class="modal modal-search-form">
@@ -199,11 +198,40 @@
         <section class="modal-content">
           <h2 class="title modal-title">Поиск гостиницы в Седоне</h2>
           <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
-
+            <label class="date-in" for="arrival-date">Дата заезда:</label>
+            <input class="arrival-date" type="text" id="arrival-date" value="27 апреля 2020">
+            <span class="error-message">Мы не можем отправить вас в прошлое.</span>
+            <label class="date-out" for="departure-date">Дата выезда:</label>
+            <input class="departure-date" type="text" id="departure-date" value="1 сентября 2021">
+            <span class="confirm-message">На эти даты есть свободные номера. Пока есть.</span>
+            <label class="adults" for="adults">Взрослые:</label>
+            <div class="quantity">
+              <button class="quantity-minus-button">
+                <span class="visually-hidden">-</span>
+              </button>
+              <input class="adults-number" type="number" id="adults" value="2">
+              <button class="quantity-plus-button">
+                <span class="visually-hidden">+</span>
+              </button>
+            </div class>
+            <label class="childs" for="childs">Дети:</label>
+            <div class="quantity">
+              <button class="quantity-minus-button">
+                <span class="visually-hidden">-</span>
+              </button>
+              <input class="childs-number" type="number" id="childs" value="2">
+              <button class="quantity-plus-button">
+                <span class="visually-hidden">+</span>
+              </button>
+            </div>
+            <button class="button form-button-search" type="submit">Найти</button>
           </form>
         </section>
       </div>
     </div>
+    </div>
+
+
   </body>
 
 </html>

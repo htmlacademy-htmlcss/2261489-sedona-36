@@ -300,6 +300,7 @@ display: flex;
 }
 
 .modal-search-form {
+  box-sizing: border-box;
   width: 771px;
 }
 
@@ -325,6 +326,111 @@ display: flex;
   margin-bottom: 64px;
   padding: 0;
   text-align: left;
+}
+
+.search-form {
+  display: grid;
+  grid-template-columns: 137px 110px 88px 131px 110px;
+  grid-template-rows: repeat(5, 48px);
+}
+
+.search-form input {
+  background-color: #F2F2F2;
+  color: #000000;
+  padding: 12px 20px;
+  border: none;
+}
+
+.date-in {
+  grid-column: 1/2;
+}
+
+.arrival-date {
+  grid-column: 2/6;
+  position: relative;
+}
+
+.arrival-date::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  top: 16px;
+  right: 22px;
+  background-image: url("../img/date.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 20px;
+}
+
+.error-message {
+  grid-column: 2/6;
+}
+
+.date-out {
+  grid-column: 1/2;
+}
+
+.departure-date {
+  grid-column: 2/6;
+  position: relative;
+}
+
+.confirm-message {
+  grid-column: 2/6;
+}
+
+.adults {
+  grid-column: 1/2;
+}
+
+.childs {
+  grid-column: 4/5;
+}
+
+.adults-number,
+.childs-number {
+  text-align: center;
+  width: 31px;
+  padding: 0;
+}
+
+.quantity {
+  display: flex;
+}
+
+.quantity-minus-button,
+.quantity-plus-button {
+  width: 40px;
+  padding: 20px;
+  border: none;
+}
+
+.quantity-minus-button {
+  background-image: url("../img/minus.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.quantity-plus-button {
+  background-image: url("../img/plus.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.search-form span {
+  padding: 0 20px;
+  margin-top: 4px;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.error-message {
+  color: #FF5757;
+}
+
+.form-button-search {
+  grid-column: 1/-1;
 }
 
 
@@ -685,7 +791,8 @@ display: flex;
 
 
 .hotels-filter-group,
-.catalog-price-range {
+.catalog-price-range,
+.search-form label  {
   color: #ffffff;
   font-size: 20px;
   line-height: 24px;
@@ -693,6 +800,17 @@ display: flex;
   margin: 0;
   padding: 0;
   border: none;
+}
+
+.search-form label,
+.search-form input {
+  color: #000000;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: inherit;
 }
 
 .hotels-catalog-view .title {
@@ -1003,6 +1121,12 @@ input::-webkit-inner-spin-button {
   padding: 8px 57px;
   margin-top: 32px;
 }
+
+.form-button-search {
+  margin-top: 48px;
+  background-color: #83B3D3;
+}
+
 
 .button-blue:hover,
 .button-blue:focus {
