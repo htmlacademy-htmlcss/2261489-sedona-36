@@ -290,6 +290,10 @@ height: 100%;
 display: flex;
 }
 
+.modal-container-close {
+  display: none;
+}
+
 .modal {
   position: relative;
   margin: auto;
