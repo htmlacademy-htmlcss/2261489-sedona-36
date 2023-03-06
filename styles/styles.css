@@ -527,6 +527,16 @@ display: flex;
   display: none;
 }
 
+.tooltip-text::before {
+  position: absolute;
+  content: "";
+  width: 19px;
+  height: 9px;
+  bottom: 140px;
+  left: 120px;
+  background-image: url("../img/triangle.svg");
+}
+
 .tooltip-toggle:hover + .tooltip-text,
 .tooltip-toggle:focus + .tooltip-text {
   display: block;
