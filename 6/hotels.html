@@ -67,17 +67,23 @@
               <ul class="hotels-filter-list">
                 <li class="hotels-filter-item">
                   <label class="control">
-                    <input class="control-input" type="checkbox" name="swimming-pool" checked>Бассейн
+                    <input class="control-input visually-hidden" type="checkbox" name="swimming-pool" checked>
+                    <span class="control-mark"></span>
+                    <span class="control-label">Бассейн</span>
                   </label>
                 </li>
                 <li class="hotels-filter-item">
                   <label class="control">
-                    <input class="control-input" type="checkbox" name="parking" checked>Парковка
+                    <input class="control-input visually-hidden" type="checkbox" name="parking" checked>
+                    <span class="control-mark"></span>
+                    <span class="control-label">Парковка</span>
                   </label>
                 </li>
                 <li>
                   <label class="control">
-                    <input class="control-input" type="checkbox" name="wi-fi">Wi-Fi
+                    <input class="control-input visually-hidden" type="checkbox" name="wi-fi">
+                    <span class="control-mark"></span>
+                    <span class="control-label">Wi-Fi</span>
                   </label>
                 </li>
               </ul>
@@ -88,24 +94,56 @@
               <ul class="hotels-filter-list">
                 <li class="hotels-filter-item">
                   <label class="control">
-                    <input class="control-input" type="radio" name="hotel-group" value="hotel">
-                    Гостиница
+                    <input class="control-input visually-hidden" type="radio" name="hotel-group" value="hotel">
+                    <span class="control-mark"></span>
+                    <span class="control-label">Гостиница</span>
                   </label>
                 </li>
                 <li class="hotels-filter-item">
                   <label class="control">
-                    <input class="control-input" type="radio" name="hotel-group" value="motel">
-                    Мотель
+                    <input class="control-input visually-hidden" type="radio" name="hotel-group" value="motel">
+                    <span class="control-mark"></span>
+                    <span class="control-label">Мотель</span>
                   </label>
                 </li>
                 <li class="hotels-filter-item">
                   <label class="control">
-                    <input class="control-input" type="radio" name="hotel-group" value="appartment">
-                    Аппартаменты
+                    <input class="control-input visually-hidden" type="radio" name="hotel-group" value="appartment">
+                    <span class="control-mark"></span>
+                    <span class="control-label">Аппартаменты</span>
                   </label>
                 </li>
               </ul>
             </fieldset>
+
+            <fieldset class="catalog-price-range">
+              <legend class="catalog-filter-title">Стоимость, ₽:</legend>
+              <div class="range">
+                <label class="price-from">
+                  <input class="price-from-text field" type="number" value="0">
+                  <span>от</span>
+                </label>
+                <label class="price-to">
+                  <input class="price-to-text field" type="number" value="9000">
+                  <span>до</span>
+                </label>
+              </div>
+              <div class="range">
+                <div class="range-scale">
+                  <div class="range-bar">
+                    <button type="button" class="range-toggle toggle-min">
+                      <span class="visually-hidden">Минимальная цена</span>
+                    </button>
+                    <button type="button" class="range-toggle toggle-max">
+                      <span class="visually-hidden">Максимальная цена</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+
+            </fieldset>
+
             <div class="hotels-filter-buttons">
               <button class="button button-apply button-blue" type="submit">Применить</button>
               <button class="button button-reset" type="reset">Сбросить</button>
