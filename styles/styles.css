@@ -351,7 +351,7 @@ display: flex;
   position: relative;
 }
 
-.arrival-date::before {
+.arrival-date::after {
   position: absolute;
   content: "";
   width: 20px;
@@ -1173,6 +1173,14 @@ input::-webkit-inner-spin-button {
   line-height: 24px;
 }
 
+.form-button-search:hover,
+.form-button-search:focus {
+  background-color: #68A2CA;
+ }
+
+ .form-button-search:active {
+
+ }
 
 .button-blue:hover,
 .button-blue:focus {
