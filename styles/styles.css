@@ -1070,6 +1070,15 @@ display: flex;
   line-height: 24px;
   font-weight: 700;
   padding: 12px 20px;
+  border: none;
+}
+
+.price-from-text {
+  border-radius: 4px 0px 0px 4px;
+}
+
+.price-to-text {
+  border-radius: 0px 4px 4px 0px;
 }
 
 input::-webkit-outer-spin-button,
