@@ -397,10 +397,13 @@ display: flex;
   background-color: #E6E6E6;
 }
 
-.modal-close-button:focus,
+.modal-close-button:focus {
+  border: 3px solid #83B3D3;
+}
+
 .arrival-date:focus,
 .departure-date:focus {
-  border: 3px solid #83B3D3;
+  box-shadow: 0 0 0 3px #83b3d3;
 }
 
 .arrival-date:focus:placeholder-shown {
