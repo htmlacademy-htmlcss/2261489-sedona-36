@@ -826,6 +826,13 @@ display: flex;
 
 .subscribe-input {
   width: 452px;
+  box-sizing: border-box;
+  padding: 14px 20px;
+  background-color: #F2F2F2;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  border: none;
 }
 
 .subscribe-index h2,
@@ -1227,6 +1234,7 @@ input::-webkit-inner-spin-button {
   background-color: #82B3D3;
   font-size: 20px;
   line-height: 36px;
+  padding: 8px 50px;
 }
 
 .button-apply,
