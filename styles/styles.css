@@ -78,7 +78,6 @@ body {
 
 .navigation-items {
   display: flex;
-  outline: 2px solid purple;
   margin: 0;
   margin-left: 168px;
   padding: 0;
@@ -87,7 +86,6 @@ body {
 }
 
 .navigation-item {
-  outline: 2px solid forestgreen;
   display: flex;
   align-items: center;
   padding: 0;
@@ -252,14 +250,12 @@ body {
 .footer-contacts-container {
   display: grid;
   margin: 40px 70px 30px;
-  outline: 2px solid royalblue;
   grid-template-columns: 142px 720px 115px;
   gap:40px;
 }
 
 .contacts-social-list {
   display: flex;
-  outline: 2px solid rgb(0, 128, 68);
   width: 142px;
   margin: 0;
   padding: 0;
