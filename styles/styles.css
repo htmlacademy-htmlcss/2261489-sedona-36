@@ -485,6 +485,7 @@ display: flex;
 .quantity-plus-button:focus path,
 .quantity-minus-button:focus path {
   fill: #000000;
+  fill-opacity: 1;
 }
 
 .quantity-plus-button:focus,
