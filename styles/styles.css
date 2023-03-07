@@ -495,7 +495,7 @@ display: flex;
 
 .quantity-plus-button:active,
 .quantity-minus-button:active {
-  opacity: 0.2;
+  fill: #000000;
 }
 
 .error-message,
