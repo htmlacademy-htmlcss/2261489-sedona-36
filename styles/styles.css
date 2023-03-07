@@ -319,10 +319,19 @@ display: flex;
   background-color: #F2F2F2;
   border-radius: 50%;
   border: none;
+  cursor: pointer;
+}
+
+.modal-close-button::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  top: 17px;
+  right: 16px;
   background-image: url("../img/close-button.svg");
   background-repeat: no-repeat;
   background-position: center;
-  cursor: pointer;
 }
 
 .modal-title {
@@ -398,7 +407,17 @@ display: flex;
   background-color: #E6E6E6;
 }
 
-.modal-close-button:active,
+.modal-close-button:focus::after {
+  top: 14px;
+  right: 13px;
+}
+
+.modal-close-button:active::after {
+  opacity: 0.3;
+  top: 14px;
+  right: 13px;
+}
+
 .arrival-date:active,
 .departure-date:active {
   opacity: 0.3;
