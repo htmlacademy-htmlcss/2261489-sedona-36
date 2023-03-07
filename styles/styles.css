@@ -643,6 +643,15 @@ display: flex;
   grid-column: 1/-1;
 }
 
+.hotel-card-link:hover .hotel-card-title,
+.hotel-card-link:focus .hotel-card-title {
+  opacity: 0.6;
+}
+
+.hotel-card-link:active .hotel-card-title {
+  opacity: 0.3;
+}
+
 .price {
   justify-self: end;
 }
