@@ -113,6 +113,18 @@ body {
   background-image: url("../img/search.svg");
 }
 
+.search-icon:hover,
+.search-icon:focus,
+.favourites-icon:hover,
+.favourites-icon:focus {
+  background-size: 25px 25px;
+}
+
+.search-icon:active,
+.favourites-icon:active {
+  background-size: 30px 30px;
+}
+
 .favourites-icon {
   background-image: url("../img/heart.svg");
   position: relative;
@@ -193,6 +205,15 @@ body {
   text-transform: capitalize;
   text-decoration: none;
   padding: 15px 10px;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: #81B3D3;
+}
+
+.navigation-link:active {
+  color: rgba(129, 179, 211, 0.3);
 }
 
 .advantages-main-title {
