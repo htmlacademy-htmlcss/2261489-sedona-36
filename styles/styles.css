@@ -91,12 +91,17 @@ body {
   padding: 0;
 }
 
+.navigation-items-main {
+  box-sizing: border-box;
+   padding: 0px 6px;
+}
+
 .navigation-user {
   display: flex;
   width: 268px;
   justify-content: space-between;
   padding: 14px 0;
-  margin-left: 285px;
+  margin-left: 287px;
 }
 
 .search-icon,
@@ -134,8 +139,8 @@ body {
   width: 20px;
   height: 20px;
   position: absolute;
-  left: 20px;
-  top: 6px;
+  left: 18px;
+  top: 4px;
   font-size: 10px;
   line-height: 20px;
   font-weight: 400;
