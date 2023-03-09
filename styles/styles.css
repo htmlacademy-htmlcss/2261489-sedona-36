@@ -226,7 +226,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 69px 274px;
+  padding: 70px 274px;
 }
 
 .features-main-title {
@@ -244,6 +244,10 @@ body {
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
+}
+
+.sedona-title {
+  margin: 0;
 }
 
 .results-title {
@@ -728,6 +732,8 @@ z-index: 1;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0 30px;
 }
 
 .advantages-title::before {
@@ -748,6 +754,8 @@ z-index: 1;
   line-height: 28px;
   font-weight: 700;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0 30px;
 }
 
 .advantages-title-wide::before {
@@ -771,6 +779,7 @@ z-index: 1;
   justify-content: center;
   align-items: center;
   padding: 112px 85px;
+  gap: 60px;
 }
 
 .features-item {
@@ -842,8 +851,13 @@ z-index: 1;
   background-color: #ffffff;
 }
 
+.advantages-description {
+  margin: 0;
+}
+
 .advantages-description-wide {
   color: #ffffff;
+  margin: 0;
 }
 
 
