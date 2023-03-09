@@ -505,9 +505,9 @@ display: flex;
   fill-opacity: 1;
 }
 
-.quantity-plus-button:focus,
-.quantity-minus-button:focus {
-  border: 3px solid #82B3D3;
+.quantity-plus-button:focus svg,
+.quantity-minus-button:focus svg{
+  box-shadow: 0 0 0 3px #83b3d3;
   border-radius: 4px;
 }
 
