@@ -381,16 +381,11 @@ display: flex;
   position: relative;
 }
 
-.arrival-date::after {
-  position: absolute;
-  content: "";
-  width: 20px;
-  height: 20px;
-  top: 16px;
-  right: 22px;
+.arrival-date,
+.departure-date {
   background-image: url("../img/date.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top 14px right 20px;
   background-size: 20px 20px;
 }
 
@@ -513,7 +508,7 @@ display: flex;
 
 .quantity-plus-button:active,
 .quantity-minus-button:active {
-  fill: #000000;
+  fill-opacity: 0.2;
 }
 
 .error-message,
