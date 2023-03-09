@@ -1351,6 +1351,7 @@ input::-webkit-inner-spin-button {
   height: 60px;
   font-size: 20px;
   line-height: 24px;
+  border-radius: 10px;
 }
 
 .form-button-search:hover,
