@@ -227,6 +227,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 70px 274px;
+  margin-bottom: 21px;
 }
 
 .features-main-title {
@@ -234,7 +235,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 64px 347px;
+  padding: 63px 347px;
 }
 
 .title {
@@ -244,10 +245,12 @@ body {
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 25px;
 }
 
-.sedona-title {
-  margin: 0;
+.features .title {
+  margin-bottom: 21px;
 }
 
 .results-title {
@@ -670,6 +673,7 @@ z-index: 1;
   line-height: 26px;
   color: #333333;
   text-align: center;
+  margin: 0;
 }
 
 .welcome {
@@ -721,6 +725,7 @@ z-index: 1;
   margin: 0;
   padding: 0;
   flex-wrap: wrap;
+  height: 385px;
 }
 
 .advantages-title,
@@ -755,7 +760,7 @@ z-index: 1;
   font-weight: 700;
   text-transform: uppercase;
   margin: 0;
-  padding: 0 30px;
+  padding: 0 29px;
 }
 
 .advantages-title-wide::before {
@@ -783,12 +788,13 @@ z-index: 1;
 }
 
 .features-item {
-  padding: 81px 85px;
+  padding: 80px 85px;
+  gap: 30px;
 }
 
 .features-title {
   margin: 0;
-  padding-top: 112px;
+  padding-top: 102px;
 }
 
 .features-title.housing::before {
@@ -809,7 +815,7 @@ z-index: 1;
   position: absolute;
   content: "";
   top: 0;
-  left: -15px;
+  left: 15px;
   width: 75px;
   height: 72px;
   background-image: url("../img/food.svg");
@@ -823,7 +829,7 @@ z-index: 1;
   position: absolute;
   content: "";
   top: 0;
-  right: 15px;
+  right: 50px;
   width: 75px;
   height: 72px;
   background-image: url("../img/souvenirs.svg");
@@ -851,7 +857,8 @@ z-index: 1;
   background-color: #ffffff;
 }
 
-.advantages-description {
+.advantages-description,
+.features-description {
   margin: 0;
 }
 
