@@ -595,7 +595,7 @@ z-index: 1;
 
 .hotels-filter {
   display: flex;
-  justify-content: space-between;
+  gap: 70px;
 }
 
 .hotels-filter-list {
@@ -609,8 +609,7 @@ z-index: 1;
 .hotels-filter-buttons {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  margin-left: 55px;
+  margin-top: 56px;
 }
 
 .hotels-catalog {
@@ -943,6 +942,7 @@ z-index: 1;
   display: flex;
   gap: 28px;
   margin: 0;
+  margin-bottom: 40px;
   padding: 0;
 }
 
@@ -1113,6 +1113,7 @@ z-index: 1;
   width: 288px;
   border: none;
   margin: 0;
+  margin-left: 70px;
   padding: 0;
 }
 
@@ -1124,6 +1125,12 @@ z-index: 1;
   display: flex;
   gap: 2px;
   margin-bottom: 15px;
+}
+
+.range-price {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 19px;
 }
 
 .price-from,
