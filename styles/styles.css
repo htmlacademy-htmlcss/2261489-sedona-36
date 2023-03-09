@@ -942,6 +942,7 @@ z-index: 1;
 .breadcrumbs {
   display: flex;
   gap: 28px;
+  margin: 0;
   padding: 0;
 }
 
