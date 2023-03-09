@@ -227,7 +227,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 70px 274px;
-  margin-bottom: 21px;
+  margin-bottom: 19px;
 }
 
 .features-main-title {
@@ -235,7 +235,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 63px 347px;
+  padding: 64px 347px;
 }
 
 .title {
@@ -249,7 +249,8 @@ body {
   margin-bottom: 25px;
 }
 
-.features .title {
+.features .title,
+.search-hotel .title {
   margin-bottom: 21px;
 }
 
@@ -1452,9 +1453,12 @@ input::-webkit-inner-spin-button {
 }
 
 .button-search-hotel {
+  box-sizing: border-box;
+  width: 376px;
   font-size: 20px;
   line-height: 36px;
   text-decoration: none;
+  margin-top: 52px;
 }
 
 .pagination {
