@@ -1060,8 +1060,9 @@ display: flex;
   top: 5px;
   left: 5px;
   width: 10px;
-  height: 11px;
-  background-image: url("../img/point.svg");
+  height: 10px;
+  background-color: #3F5E72;
+  border-radius: 50%;
 }
 
 .select-control {
