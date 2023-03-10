@@ -36,6 +36,7 @@ body {
 
 .page-header-logo {
   position: absolute;
+  z-index: 1;
 }
 
 .main-container {
@@ -100,7 +101,7 @@ body {
   display: flex;
   width: 268px;
   justify-content: space-between;
-  padding: 14px 0;
+  padding: 0;
   margin-left: 287px;
 }
 
@@ -1304,6 +1305,10 @@ input[type="number"]:focus {
 
 .htmlacademy-link:active path {
   fill: rgba(117, 97, 87, 0.3);
+}
+
+input:disabled {
+  background-color: #E5E5E5;
 }
 
 .button {
