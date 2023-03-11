@@ -441,14 +441,16 @@ z-index: 1;
 }
 
 .modal-close-button:focus::after {
-  top: 14px;
-  right: 14px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .modal-close-button:active::after {
   opacity: 0.3;
-  top: 14px;
-  right: 14px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .arrival-date:active,
