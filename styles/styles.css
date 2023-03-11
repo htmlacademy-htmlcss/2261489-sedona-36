@@ -80,6 +80,7 @@ body {
 
 .navigation-items {
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   margin-left: 168px;
   padding: 0;
@@ -293,6 +294,7 @@ body {
 
 .contacts-social-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 142px;
   margin: 0;
@@ -933,7 +935,7 @@ z-index: 1;
 
 .sedona-hotels {
   box-sizing: border-box;
-  height: 412px;
+  min-height: 412px;
   color: #ffffff;
   background: url("../img/filter-background.jpg") no-repeat #303030;
   background-size: cover;
