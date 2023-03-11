@@ -1072,8 +1072,8 @@ z-index: 1;
   background-color: #FFFFFF;
 }
 
-.control:focus .control-mark {
-  border: 3px solid #83B3D3;
+.control-mark:focus {
+  box-shadow: 0 0 0 3px #83b3d3;
 }
 
 .control:hover .control-mark {
