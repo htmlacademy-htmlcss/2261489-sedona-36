@@ -739,7 +739,6 @@ z-index: 1;
 
 .advantages-title,
 .features-title {
-  position: relative;
   color: #000000;
   font-size: 24px;
   line-height: 28px;
@@ -750,19 +749,22 @@ z-index: 1;
   padding: 0 30px;
 }
 
-.advantages-title::before {
+.advantages-item {
+  position: relative;
+}
+
+.advantages-item::before {
   position: absolute;
   content: "";
   width: 60px;
   height: 2px;
-  bottom: -30px;
+  top: 198px;
   left: 50%;
   margin-left: -30px;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
 .advantages-title-wide {
-  position: relative;
   color: #ffffff;
   font-size: 24px;
   line-height: 28px;
@@ -770,17 +772,6 @@ z-index: 1;
   text-transform: uppercase;
   margin: 0;
   padding: 0 29px;
-}
-
-.advantages-title-wide::before {
-  position: absolute;
-  content: "";
-  width: 60px;
-  height: 2px;
-  bottom: -30px;
-  left: 50%;
-  margin-left: -30px;
-  background-color: rgba(255, 255, 255, 0.3);
 }
 
 
@@ -798,6 +789,7 @@ z-index: 1;
 }
 
 .features-item {
+  position: relative;
   padding: 80px 85px;
   gap: 30px;
 }
@@ -811,7 +803,8 @@ z-index: 1;
   display: block;
   position: absolute;
   content: "";
-  top: 0;
+  top: 81px;
+  left: 162px;
   width: 75px;
   height: 72px;
   background-image: url("../img/housing.svg");
@@ -824,8 +817,8 @@ z-index: 1;
   display: block;
   position: absolute;
   content: "";
-  top: 0;
-  left: 15px;
+  top: 81px;
+  left: 162px;
   width: 75px;
   height: 72px;
   background-image: url("../img/food.svg");
@@ -838,8 +831,8 @@ z-index: 1;
   display: block;
   position: absolute;
   content: "";
-  top: 0;
-  right: 50px;
+  top: 81px;
+  left: 162px;
   width: 75px;
   height: 72px;
   background-image: url("../img/souvenirs.svg");
@@ -849,6 +842,7 @@ z-index: 1;
 }
 
 .advantages-item-wide {
+  position: relative;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -857,6 +851,17 @@ z-index: 1;
   background-color: #82b3d3;
   align-items: center;
   padding: 102px 85px;
+}
+
+.advantages-item-wide::before {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 2px;
+  top: 188px;
+  left: 50%;
+  margin-left: -30px;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 
