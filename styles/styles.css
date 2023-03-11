@@ -525,9 +525,9 @@ z-index: 1;
   border-radius: 4px;
 }
 
-.quantity-plus-button:active,
-.quantity-minus-button:active {
-  fill-opacity: 0.2;
+.quantity-plus-button:active svg,
+.quantity-minus-button:active svg {
+  opacity: 0.2;
 }
 
 .error-message,
