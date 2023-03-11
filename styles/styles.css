@@ -497,6 +497,7 @@ z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #F2F2F2;
   width: 40px;
   padding: 5px;
   border: none;
