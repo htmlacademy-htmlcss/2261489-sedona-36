@@ -1034,6 +1034,10 @@ z-index: 1;
   font-family: inherit;
 }
 
+.search-form label {
+  font-size: 20px;
+}
+
 .hotels-catalog-view .title {
   margin-right: 200px;
 }
@@ -1158,6 +1162,7 @@ z-index: 1;
   box-sizing: border-box;
   width: 143px;
   color: #000000;
+  font-family: inherit;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
