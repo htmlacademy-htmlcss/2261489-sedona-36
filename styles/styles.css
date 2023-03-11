@@ -687,7 +687,8 @@ z-index: 1;
 .welcome {
   position: relative;
   color: #000000;
-  background: url("../img/index-background.jpg") no-repeat #ffffff;
+  background: url("../img/index-background.jpg") no-repeat;
+  background-color: #82B3D3;
   background-size: 100% auto;
   min-height: 485px;
 }
@@ -885,9 +886,9 @@ z-index: 1;
 
 .subscribe-index {
   color: #ffffff;
-  background: url("../img/subscribe-background.jpg") no-repeat #303030;
+  background: url("../img/subscribe-background.jpg") no-repeat;
   background-size: 100% auto;
-
+  background-color:  #303030;
 }
 
 .subscribe-form {
@@ -938,7 +939,8 @@ z-index: 1;
   box-sizing: border-box;
   min-height: 412px;
   color: #ffffff;
-  background: url("../img/filter-background.jpg") no-repeat #303030;
+  background: url("../img/filter-background.jpg") no-repeat;
+  background-color: #303030;
   background-size: cover;
   padding: 35px 43px 70px 70px;
 }
