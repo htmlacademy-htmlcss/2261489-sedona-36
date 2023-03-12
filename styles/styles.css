@@ -418,7 +418,7 @@ body {
 .arrival-date:hover,
 .departure-date:hover,
 .arrival-date:focus,
-.departure-date:focus{
+.departure-date:focus {
   background-color: #E6E6E6;
 }
 
@@ -516,7 +516,7 @@ body {
 }
 
 .quantity-plus-button:focus svg,
-.quantity-minus-button:focus svg{
+.quantity-minus-button:focus svg {
   box-shadow: 0 0 0 3px #83B3D3;
   border-radius: 4px;
 }
