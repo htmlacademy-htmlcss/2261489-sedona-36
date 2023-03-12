@@ -357,8 +357,9 @@ body {
   content: "";
   width: 20px;
   height: 20px;
-  top: 17px;
-  right: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-image: url("../img/close-button.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -417,7 +418,7 @@ body {
 .arrival-date:hover,
 .departure-date:hover,
 .arrival-date:focus,
-.departure-date:focus{
+.departure-date:focus {
   background-color: #E6E6E6;
 }
 
@@ -515,7 +516,7 @@ body {
 }
 
 .quantity-plus-button:focus svg,
-.quantity-minus-button:focus svg{
+.quantity-minus-button:focus svg {
   box-shadow: 0 0 0 3px #83B3D3;
   border-radius: 4px;
 }
@@ -1093,6 +1094,14 @@ body {
   height: 10px;
   background-color: #3F5E72;
   border-radius: 50%;
+}
+
+.control-input[type="checkbox"]:focus + .control-mark {
+  box-shadow: 0 0 0 3px #83B3D3;
+}
+
+.control-input[type="radio"]:focus + .control-mark {
+  box-shadow: 0 0 0 3px #83B3D3;
 }
 
 .select-control {
