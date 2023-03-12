@@ -357,8 +357,9 @@ body {
   content: "";
   width: 20px;
   height: 20px;
-  top: 17px;
-  right: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-image: url("../img/close-button.svg");
   background-repeat: no-repeat;
   background-position: center;
