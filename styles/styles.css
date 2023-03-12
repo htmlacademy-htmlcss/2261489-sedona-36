@@ -869,6 +869,7 @@ body {
 
 .advantages-image {
   display: block;
+  height: 100%;
 }
 
 .subscribe-index {
