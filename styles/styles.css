@@ -636,6 +636,8 @@ body {
   gap: 16px 20px;
   padding: 20px;
   max-width: 300px;
+  min-height: 398px;
+  align-content: end;
   border: 1px solid #E6E6E6;
   border-radius: 4px;
 }
@@ -738,21 +740,6 @@ body {
   padding: 0 30px;
 }
 
-.advantages-item {
-  position: relative;
-}
-
-.advantages-item::before {
-  position: absolute;
-  content: "";
-  width: 60px;
-  height: 2px;
-  top: 198px;
-  left: 50%;
-  margin-left: -30px;
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
 .advantages-title-wide {
   color: #FFFFFF;
   font-size: 24px;
@@ -770,7 +757,6 @@ body {
   box-sizing: border-box;
   width: 400px;
   background-color: rgba(131, 179, 211, 0.12);
-  justify-content: center;
   align-items: center;
   padding: 112px 85px;
   gap: 60px;
@@ -778,13 +764,12 @@ body {
 
 .features-item {
   position: relative;
-  padding: 80px 85px;
+  padding: 183px 85px 81px;
   gap: 30px;
 }
 
 .features-title {
   margin: 0;
-  padding-top: 102px;
 }
 
 .features-title.housing::before {
@@ -830,7 +815,6 @@ body {
 }
 
 .advantages-item-wide {
-  position: relative;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -839,17 +823,6 @@ body {
   background-color: #82B3D3;
   align-items: center;
   padding: 102px 85px;
-}
-
-.advantages-item-wide::before {
-  position: absolute;
-  content: "";
-  width: 60px;
-  height: 2px;
-  top: 188px;
-  left: 50%;
-  margin-left: -30px;
-  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .advantages-item:nth-child(4) {
@@ -862,16 +835,41 @@ body {
 
 .advantages-description,
 .features-description {
+  position: relative;
   margin: 0;
 }
 
 .advantages-description-wide {
+  position: relative;
   color: #FFFFFF;
   margin: 0;
 }
 
+.advantages-description::before {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 2px;
+  top: -30px;
+  left: 50%;
+  margin-left: -30px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.advantages-description-wide::before {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 2px;
+  top: -30px;
+  left: 50%;
+  margin-left: -30px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
 .advantages-image {
   display: block;
+  height: 100%;
 }
 
 .subscribe-index {
