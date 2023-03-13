@@ -757,7 +757,6 @@ body {
   box-sizing: border-box;
   width: 400px;
   background-color: rgba(131, 179, 211, 0.12);
-  justify-content: center;
   align-items: center;
   padding: 112px 85px;
   gap: 60px;
@@ -765,13 +764,12 @@ body {
 
 .features-item {
   position: relative;
-  padding: 80px 85px;
+  padding: 183px 85px 81px;
   gap: 30px;
 }
 
 .features-title {
   margin: 0;
-  padding-top: 102px;
 }
 
 .features-title.housing::before {
